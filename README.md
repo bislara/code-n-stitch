@@ -1,6 +1,6 @@
 # CODE n STITCH 
 
-This is a collection of small small projects which are awesome and might help a developer or add a little fun in life. 
+This is a collection of small projects which are awesome and might help a developer or add a little fun in life. 
 This is an open repository ❤️.I would love to see people contributing to it.
 
 ---
@@ -28,12 +28,12 @@ This is an open repository ❤️.I would love to see people contributing to it.
 
 ## 📫 BRANCH CREATION RULE
 * Go to [this](https://github.com/bislara/code-n-stitch/issues) link and see the issues created by you.
-* Create a new branch for each issue. The name of your branch should follow the following rule : **[LABEL (lowercase)]/[ISSUE #]-[TITLE (all lowercase letters and words separated by hyphen(-))]**.
-* That is, if the *TITLE* of the issue **#8** is **Dashboard - Development** and *LABEL* assigned to this issue is **Feature**, then the branch name should be **feature/8-dashboard-development**
+* Create a new branch for each issue. The name of your branch should follow the following rule: **[LABEL (lowercase)]/[ISSUE #]-[TITLE (all lowercase letters and words separated by a hyphen(-))]**.
+* That is, if the *TITLE* of the issue **#8** is **Dashboard - Development**, then the branch name should be **8-dashboard-development**
 * Perform all the development activities in this branch and raise PRs accordingly with proper commit message and description along with screenshots, images (if necessary)
 
 ---
-## 📫 RULLS FOR PULL REQUEST (PR) RAISE
+## 📫 RULES FOR PULL REQUEST (PR) RAISE
 * Use proper commit message describing the tasks performed in the commit.
 * Treat `master` branch as your master branch, i.e. all your PRs should use `master` as the target branch. e.g. `git push origin YOUR_BRANCH_NAME` and then use `master` as the target branch while creating PRs.
 
@@ -41,7 +41,7 @@ This is an open repository ❤️.I would love to see people contributing to it.
 
 ## ⭐ IMPORTANT LINKS TO GET STARTED?
 
-You can go through the following links to know more about using Git and Github
+You can go through the following links to know more about using Git and GitHub.
 
 - [Forking a Repo](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
 - [Cloning a Repo](https://help.github.com/en/desktop/contributing-to-projects/creating-a-pull-request)
