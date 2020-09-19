@@ -42,9 +42,9 @@ def text(txt_msg, txt_clr, txt_x, txt_y, txt_size,):
 
 
 # Music play while in game
-pygame.mixer_music.load('assets/sounds/game_music.wav')
+pygame.mixer_music.load('assets/sounds/game_music_2.wav')
 # pygame.mixer_music.play(-1)
-pygame.mixer_music.set_volume(0.5)
+pygame.mixer_music.set_volume(0.2)
 
 # adding the sound effect and set the volume
 snake_bite = pygame.mixer.Sound('assets/sounds/sound_effects/got_apple.wav')
@@ -78,7 +78,7 @@ def game():
     apl_x = randrange(0, width - size, size)
     apl_y = randrange(0, height - size - scoreboard, size)
 
-    pygame.mixer.music.play()
+    pygame.mixer.music.play(-1)
 
     t1 = time.time()
     measured_time = 0
