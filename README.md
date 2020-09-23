@@ -44,7 +44,7 @@ This is an open repository ❤️.I would love to see people contributing to it.
 You can go through the following links to know more about using Git and GitHub.
 
 - [Forking a Repo](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
-- [Cloning a Repo](https://help.github.com/en/desktop/contributing-to-projects/creating-a-pull-request)
+- [Cloning a Repo](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories)
 - [Create a Pull Request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
 - [Addressing Merge Conflict](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/addressing-merge-conflicts)
 - [About Issues](https://docs.github.com/en/github/managing-your-work-on-github/managing-your-work-with-issues)
