@@ -91,12 +91,14 @@ class Ui_MainWindow(object):
         # convert it to numpy array and BGR 
         # so we can write it to the disk 
         self.cv2_image = cv2.cvtColor(np.array(self.image_shot_init),cv2.COLOR_RGB2BGR) 
-        # cv2.imshow("Image", self.cv2_image) 
+        cv2.imshow("Image", self.cv2_image) 
         print(self.cv2_image.shape,self.cv2_image.data)
         self.cv2_image = QtGui.QImage(self.cv2_image.data, self.cv2_image.shape[1], self.cv2_image.shape[0], QtGui.QImage.Format_RGB888)
         # self.cv2_image = QtGui.QImage(self.cv2_image)
         self.image_label.setPixmap(QtGui.QPixmap(self.cv2_image))
-        self.image_label.show()
+        # self.image_label.show()
+        self.image_label.adjustSize()
+
         
 
 
