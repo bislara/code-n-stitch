@@ -28,7 +28,7 @@ This is an open repository ❤️.I would love to see people contributing to it.
 
 ## 📫 BRANCH CREATION RULE
 * Go to [this](https://github.com/bislara/code-n-stitch/issues) link and see the issues created by you.
-* Create a new branch for each issue. The name of your branch should follow the following rule: **[LABEL (lowercase)]/[ISSUE #]-[TITLE (all lowercase letters and words separated by a hyphen(-))]**.
+* Create a new branch for each issue. The name of your branch should follow the following rule: **[ISSUE #]-[TITLE (all lowercase letters and words separated by a hyphen(-))]**.
 * That is, if the *TITLE* of the issue **#8** is **Dashboard - Development**, then the branch name should be **8-dashboard-development**
 * Perform all the development activities in this branch and raise PRs accordingly with proper commit message and description along with screenshots, images (if necessary)
 
