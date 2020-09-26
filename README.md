@@ -1,7 +1,7 @@
 # CODE and STITCH 
 
 This is a collection of small projects which are awesome and might help a developer or add a little fun in life. 
-This is an open repository ❤️.I would love to see people contributing to it.
+This is an open repository. I would love to see people contributing to it.
 
 ---
 
@@ -12,7 +12,7 @@ This is an open repository ❤️.I would love to see people contributing to it.
 
 - Create your own Issues!
 - Wait for the admin's approval comment on the issue 
-- Fork the Repo and create a Branch for any Issue by following the branch creation rule.
+- Fork the Repository and create a Branch for any Issue by following the branch creation rule.
 - Create a Pull Request (from your branch to the main repo master branch) which will be promptly reviewed and suggestions would be added to improve it.
 - Add Screenshots to help us know what this issue is all about.
 
@@ -62,14 +62,14 @@ Thank you to all the contributors for adding your wonderfull codes to this repo 
   </tr>
 </table>
 
-## ❤️ PROJECT ADMIN
+## PROJECT ADMIN
 
 |                                     <a href="https://github.com/bislara"><img src="https://avatars1.githubusercontent.com/u/35392585?s=460&u=84d17486cf01da61c7ebc27143a4de86b02c5457&v=4" width=150px height=150px /></a>                                      |
 | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 |                                                                                      <b>Biswajeet Sahoo</b>
 ---
 
-## ⭐ IMPORTANT LINKS TO GET STARTED?
+## IMPORTANT LINKS TO GET STARTED?
 
 You can go through the following links to know more about using Git and GitHub.
 
