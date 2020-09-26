@@ -12,14 +12,14 @@ This is an open repository ❤️.I would love to see people contributing to it.
 
 - Create your own Issues!
 - Wait for the admin's approval comment on the issue 
-- Fork the Repo and create a Branch for any Issue by following the branch creation rule.
-- Create a Pull Request (from your branch to the main repo master branch) which will be promptly reviewed and suggestions would be added to improve it.
+- Fork the Repository and create a Branch for any Issue by following the branch creation rule.
+- Create a Pull Request (from your branch to the main repository master branch) which will be promptly reviewed and suggestions would be added to improve it.
 - Add Screenshots to help us know what this issue is all about.
 
 ---
 
 ## 💻 PROJECT SETUP (FOR DEVELOPMENT)
-* After forking the main repo, Clone the repo from your github account using `git clone https://github.com/-username-/code-n-stitch`
+* After forking the main repository, Clone the repository from your github account using `git clone https://github.com/-username-/code-n-stitch`
 * Run `git fetch`
 * Checkout to your specific branch using `git checkout -b YOUR_BRANCH_NAME`
 * Start development
@@ -28,7 +28,7 @@ This is an open repository ❤️.I would love to see people contributing to it.
 
 ## 📫 BRANCH CREATION RULE
 * Go to [this](https://github.com/bislara/code-n-stitch/issues) link and see the issues created by you or assigned to you.
-* Create a new branch for each issue in your forked repo.
+* Create a new branch for each issue in your forked repository.
 * The name of your branch should follow the following rule: **[ISSUE #]-[TITLE (all lowercase letters and words separated by a hyphen(-))]**.
 * That is, if the *TITLE* of the issue **#8** is **Dashboard - Development**, then the branch name should be **8-dashboard-development**
 * Perform all the development activities in this branch and raise PRs accordingly with proper commit message and description along with screenshots, images (if necessary)
@@ -42,7 +42,7 @@ This is an open repository ❤️.I would love to see people contributing to it.
 
 ## 💪 CONTRIBUTORS
 
-Thank you to all the contributors for adding your wonderfull codes to this repo ✨
+Thank you to all the contributors for adding your wonderfull codes to this repository ✨
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -73,8 +73,8 @@ Thank you to all the contributors for adding your wonderfull codes to this repo 
 
 You can go through the following links to know more about using Git and GitHub.
 
-- [Forking a Repo](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
-- [Cloning a Repo](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories)
+- [Forking a Repository](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
+- [Cloning a Repository](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories)
 - [Create a Pull Request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
 - [Addressing Merge Conflict](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/addressing-merge-conflicts)
 - [About Issues](https://docs.github.com/en/github/managing-your-work-on-github/managing-your-work-with-issues)
