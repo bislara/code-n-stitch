@@ -10,7 +10,7 @@ This is an open repository ❤️.I would love to see people contributing to it.
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)]()
 [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
-- Create your own Issues!
+- Create your own Issues!!
 - Wait for the admin's approval comment on the issue 
 - Fork the Repo and create a Branch for any Issue by following the branch creation rule.
 - Create a Pull Request (from your branch to the main repo master branch) which will be promptly reviewed and suggestions would be added to improve it.
@@ -19,7 +19,7 @@ This is an open repository ❤️.I would love to see people contributing to it.
 ---
 
 ## 💻 PROJECT SETUP (FOR DEVELOPMENT)
-* After forking the main repo, Clone the repo from your github account using `git clone https://github.com/-username-/code-n-stitch`
+* After forking the main repository, Clone the repo from your github account using `git clone https://github.com/-username-/code-n-stitch`
 * Run `git fetch`
 * Checkout to your specific branch using `git checkout -b YOUR_BRANCH_NAME`
 * Start development
