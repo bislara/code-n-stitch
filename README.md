@@ -1,4 +1,4 @@
-# CODE n STITCH 
+# CODE and STITCH 
 
 This is a collection of small projects which are awesome and might help a developer or add a little fun in life. 
 This is an open repository ❤️.I would love to see people contributing to it.
@@ -40,9 +40,9 @@ This is an open repository ❤️.I would love to see people contributing to it.
 
 ---
 
-## 💪 Contributors 
+## 💪 CONTRIBUTORS
 
-Thank you to all the contributors for contributing to this repo ✨
+Thank you to all the contributors for adding your wonderfull codes to this repo ✨
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -62,7 +62,7 @@ Thank you to all the contributors for contributing to this repo ✨
   </tr>
 </table>
 
-## ❤️ Project Admin
+## ❤️ PROJECT ADMIN
 
 |                                     <a href="https://github.com/bislara"><img src="https://avatars1.githubusercontent.com/u/35392585?s=460&u=84d17486cf01da61c7ebc27143a4de86b02c5457&v=4" width=150px height=150px /></a>                                      |
 | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
