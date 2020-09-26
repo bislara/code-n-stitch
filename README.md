@@ -1,5 +1,17 @@
 # CODE and STITCH 
 
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+<!-- [![All Contributors](https://img.shields.io/badge/all_contributors-24-orange.svg?style=flat-square)](#contributors-) --->
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+[![GitHub forks](https://img.shields.io/github/forks/bislara/code-n-stitch.svg?style=social&label=Fork&maxAge=2592000)](https://gitHub.com/bislara/code-n-stitch/network/)
+[![GitHub stars](https://img.shields.io/github/stars/bislara/code-n-stitch.svg?style=social&label=Star&maxAge=2592000)](https://bislara/code-n-stitch/stargazers/)
+
+
+[![GitHub issues](https://img.shields.io/github/issues/bislara/code-n-stitch.svg)](https://github.com/bislara/code-n-stitch/issues)
+[![GitHub issues closed](https://img.shields.io/github/issues-closed/bislara/code-n-stitch.svg)](https://github.com/bislara/code-n-stitch/issues?q=is%3Aissue+is%3Aclosed)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/bislara/code-n-stitch.svg)](https://github.com/bislara/code-n-stitch/pulls)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr-closed/bislara/code-n-stitch.svg)](https://github.com/bislara/code-n-stitch/pulls?q=is%3Apr+is%3Aclosed)
+
 This is a collection of small projects which are awesome and might help a developer or add a little fun in life. 
 This is an open repository ❤️.I would love to see people contributing to it.
 
