@@ -4,14 +4,16 @@
     2. get your Access_token
     3. run by using node
 */
-const { BitlyClient} = require('bitly');
-const ACCESS_TOKEN = "YOUR ACCESS TOKEN HERE"
-const bitly = new BitlyClient(ACCESS_TOKEN, {});
 
 const readline = require('readline').createInterface({
     input: process.stdin,
     output: process.stdout
 })
+/* Bitly Usage
+const { BitlyClient} = require('bitly');
+const ACCESS_TOKEN = "YOUR ACCESS TOKEN HERE"
+const bitly = new BitlyClient(ACCESS_TOKEN, {});
+
 
 readline.question("Enter your URI: ",async (uri) =>{
     try{
@@ -23,9 +25,9 @@ readline.question("Enter your URI: ",async (uri) =>{
         readline.close()
     }
 })
+*/
 // for more information: https://www.npmjs.com/package/bitly
 
-/* If you want to use TinyURL.com 
 const TinyURL = require('tinyurl')
 readline.question("Enter your URI: ", async(uri)=>{
     TinyURL.shorten(uri, function(response,error){
@@ -33,6 +35,3 @@ readline.question("Enter your URI: ", async(uri)=>{
         console.log(response)
     })
 })
-
-for more information: https://www.npmjs.com/package/tinyurl
-*/
