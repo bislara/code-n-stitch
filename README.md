@@ -1,4 +1,7 @@
 # CODE and STITCH 
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 <!-- [![All Contributors](https://img.shields.io/badge/all_contributors-24-orange.svg?style=flat-square)](#contributors-) --->
@@ -65,51 +68,12 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"> 
-      <a href="https://github.com/bislara">
-        <img src="https://avatars1.githubusercontent.com/u/35392585?s=460&u=84d17486cf01da61c7ebc27143a4de86b02c5457&v=4" width="100px;" alt=""/><br />
-      </a>
-      <sub><b>Biswajeet Sahoo</b></sub>
-      <a href="https://github.com/bislara/code-n-stitch/pulls?q=is%3Apr+reviewed-by%3Abislara" title="Reviewed Pull Requests">👀</a>
-      <a href="https://github.com/bislara/code-n-stitch/pulls?q=is%3Apr+author%3Abislara" title="Documentation"> 📖</a>
-      <a href="https://github.com/bislara/code-n-stitch/commits?author=bislara" title="Code">💻</a>
-    </td>
-    <td align="center"> 
-      <a href="https://github.com/Volku">
-        <img src="https://avatars2.githubusercontent.com/u/24636605?s=460&u=e3858fc249c106f88327be54ccc4b97a59f5b6c6&v=4" width="100px;" alt=""/><br />
-      </a>
-      <sub><b>Natchanon Maneechote</b></sub>
-      <a href="https://github.com/bislara/code-n-stitch/pulls?q=is%3Apr+author%3AVolku" title="Documentation"> 📖</a>
-      <a href="https://github.com/bislara/code-n-stitch/commits?author=Volku" title="Code">💻</a>
-    </td>
-
+    <td align="center"><a href="https://github.com/DevanshD3"><img src="https://avatars1.githubusercontent.com/u/64734319?v=4" width="100px;" alt=""/><br /><sub><b>Devansh Dixit</b></sub></a><br /><a href="https://github.com/bislara/code-n-stitch/commits?author=DevanshD3" title="Code">💻</a> <a href="https://github.com/bislara/code-n-stitch/commits?author=DevanshD3" title="Documentation">📖</a></td>
   </tr>
 </table>
 
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
-
-## ❤️ PROJECT ADMIN
-
-|                                     <a href="https://github.com/bislara"><img src="https://avatars1.githubusercontent.com/u/35392585?s=460&u=84d17486cf01da61c7ebc27143a4de86b02c5457&v=4" width=150px height=150px /></a>                                      |
-| :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                                                                      <b>Biswajeet Sahoo</b>
-
----
-
-## ⭐ IMPORTANT LINKS TO GET STARTED?
-
-You can go through the following links to know more about using Git and GitHub.
-
-- [Forking a Repository](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
-- [Cloning a Repository](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories)
-- [Create a Pull Request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
-- [Addressing Merge Conflict](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/addressing-merge-conflicts)
-- [About Issues](https://docs.github.com/en/github/managing-your-work-on-github/managing-your-work-with-issues)
-- [About Git](https://docs.github.com/en/github/using-git)
-- [GitHub Commits](https://docs.github.com/en/github/committing-changes-to-your-project)
-
-
----
-
-> **_Need any help? Feel free to contact me at [biswajeetsahoo54@gmail.com](mailto:biswajeetsahoo54@gmail.com?Subject=CodenStitch) 😇_**
-
