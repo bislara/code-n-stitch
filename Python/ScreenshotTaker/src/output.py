@@ -9,9 +9,9 @@
 
 
 from PyQt5 import QtCore, QtGui, QtWidgets
-import pyautogui 
-import numpy as np 
-from cv2 import cv2 
+import pyautogui
+import numpy as np
+from cv2 import cv2
 from PIL.ImageQt import ImageQt
 
 
@@ -60,18 +60,25 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("Screen Shot Taker", "Screen Shot Taker"))
-        self.header_info.setHtml(_translate("Screen Shot Taker", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:16pt; font-weight:600; text-decoration: underline;\">ScreenShot Taker</span></p></body></html>"))
+        self.header_info.setHtml(
+            _translate(
+                "Screen Shot Taker",
+                '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">\n'
+                '<html><head><meta name="qrichtext" content="1" /><style type="text/css">\n'
+                "p, li { white-space: pre-wrap; }\n"
+                "</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
+                '<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:16pt; font-weight:600; text-decoration: underline;">ScreenShot Taker</span></p></body></html>',
+            )
+        )
         self.pushButton.setText(_translate("Screen Shot Taker", "Take Screenshot Now"))
-        self.directory_btn.setText(_translate("Screen Shot Taker", "Select Output Directory"))
+        self.directory_btn.setText(
+            _translate("Screen Shot Taker", "Select Output Directory")
+        )
         self.save_btn.setText(_translate("Screen Shot Taker", "SAVE"))
 
         self.pushButton.clicked.connect(self.take_shot)
         self.directory_btn.clicked.connect(self.select_dir)
-        self.dir_name=""
+        self.dir_name = ""
         self.image = ""
 
     def select_dir(self):
@@ -81,30 +88,33 @@ class Ui_MainWindow(object):
         print(self.dir_name)
 
     def take_shot(self):
-        # take screenshot using pyautogui 
+        # take screenshot using pyautogui
         self.image_label.clear()
-        self.image_shot_init = pyautogui.screenshot() 
+        self.image_shot_init = pyautogui.screenshot()
         # self.image_shot = ImageQt(self.image_shot_init)
 
-        # since the pyautogui takes as a 
-        # PIL(pillow) and in RGB we need to 
-        # convert it to numpy array and BGR 
-        # so we can write it to the disk 
-        self.cv2_image = cv2.cvtColor(np.array(self.image_shot_init),cv2.COLOR_RGB2BGR) 
-        cv2.imshow("Image", self.cv2_image) 
-        print(self.cv2_image.shape,self.cv2_image.data)
-        self.cv2_image = QtGui.QImage(self.cv2_image.data, self.cv2_image.shape[1], self.cv2_image.shape[0], QtGui.QImage.Format_RGB888)
+        # since the pyautogui takes as a
+        # PIL(pillow) and in RGB we need to
+        # convert it to numpy array and BGR
+        # so we can write it to the disk
+        self.cv2_image = cv2.cvtColor(np.array(self.image_shot_init), cv2.COLOR_RGB2BGR)
+        cv2.imshow("Image", self.cv2_image)
+        print(self.cv2_image.shape, self.cv2_image.data)
+        self.cv2_image = QtGui.QImage(
+            self.cv2_image.data,
+            self.cv2_image.shape[1],
+            self.cv2_image.shape[0],
+            QtGui.QImage.Format_RGB888,
+        )
         # self.cv2_image = QtGui.QImage(self.cv2_image)
         self.image_label.setPixmap(QtGui.QPixmap(self.cv2_image))
         # self.image_label.show()
         self.image_label.adjustSize()
 
-        
-
-
 
 if __name__ == "__main__":
     import sys
+
     app = QtWidgets.QApplication(sys.argv)
     MainWindow = QtWidgets.QMainWindow()
     ui = Ui_MainWindow()
