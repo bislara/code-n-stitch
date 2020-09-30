@@ -1,5 +1,5 @@
 '''
-To run this program firts install requirements.txt : pip intall -r requirements.txt
+To run this program install requirements.txt : pip intall -r requirements.txt
 '''
 
 
