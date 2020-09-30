@@ -14,6 +14,7 @@ Below are the steps to be followed to contribute to the repository. Lets togethe
 
 ### 1. Find an issue or Create your own issue
 - Take a look at the Existing issues or create your own issues! [Link](https://github.com/bislara/code-n-stitch/issues) 
+- Comment on the issue.
 - Wait for the admin to assign the issue to you after which you can start working on it.
 
 Note : Your PR will only be approved if you are assigned to that issue. Also, every small project must have a associated issue for it.
@@ -36,8 +37,8 @@ Create a new branch. Follow the branch creation rule.
 #### BRANCH CREATION RULE
 * Go to [this](https://github.com/bislara/code-n-stitch/issues) link and see the issues created by you or assigned to you.
 * Create a new branch for each issue in your forked repository.
-* The name of your branch should follow the following rule: **[ISSUE #]-[TITLE (all lowercase letters and words separated by a hyphen(-))]**.
-* That is, if the *TITLE* of the issue **#8** is **Dashboard - Development**, then the branch name should be **8-dashboard-development**
+* The name of your branch should follow the following rule: **[ISSUE NO #]-[SUITABLE NAME ACCORDING TO THE TITLE OF THE ISSUE(all lowercase letters and words separated by a hyphen(-))]**.
+* That is, if the *TITLE* of the issue **#8** is **Dashboard - Development for Hospital**, then the branch name should be **8-hospital-dashboard**
 
 ```
 $ git checkout -b branch_name
@@ -45,6 +46,7 @@ $ git checkout -b branch_name
 
 ### 4. Work on the issue assigned
 - Work on the issue(s) assigned to you. 
+- Create a new folder with suitable name. 
 - Add all the files/folders needed.
 - After you've made changes or made your contribution to the project add changes to the branch you've just created by:
 ```
