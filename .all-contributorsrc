@@ -26,6 +26,16 @@
         "maintenance",
         "review"
       ]
+    },
+    {
+      "login": "Volku",
+      "name": "Natchanon Maneechote",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/24636605?v=4",
+      "profile": "https://github.com/Volku",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
