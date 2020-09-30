@@ -9,11 +9,13 @@ Be sure to read the project structure and formatting rules given in the repo bef
 The project needs to defined in the following manner
 
 - {Language}
-  - {ProjectName}
+  - {ProjectName} (This should be in CamelCase)
     - README.md
     - images (This is store images to be used with README or required by your application)
     - src (The source code for your application)
     - out (The build files your application)
+
+Note: All the folders should be in lower case and the name should be plural noun.
 
 In which the out folder should be excluded since the output files only clutter the system. Also provide your own .gitignore files if there are other clutter files. Also, the test folder can created inside the source for any test files.
 
