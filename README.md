@@ -7,22 +7,35 @@
 [![GitHub stars](https://img.shields.io/github/stars/bislara/code-n-stitch.svg?style=social&label=Star&maxAge=2592000)](https://bislara/code-n-stitch/stargazers/)
 
 
+[![GitHub contributors](https://img.shields.io/github/contributors/bislara/code-n-stitch.svg)](https://GitHub.com/bislara/code-n-stitch/graphs/contributors/)
 [![GitHub issues](https://img.shields.io/github/issues/bislara/code-n-stitch.svg)](https://github.com/bislara/code-n-stitch/issues)
 [![GitHub issues closed](https://img.shields.io/github/issues-closed/bislara/code-n-stitch.svg)](https://github.com/bislara/code-n-stitch/issues?q=is%3Aissue+is%3Aclosed)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/bislara/code-n-stitch.svg)](https://github.com/bislara/code-n-stitch/pulls)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr-closed/bislara/code-n-stitch.svg)](https://github.com/bislara/code-n-stitch/pulls?q=is%3Apr+is%3Aclosed)
 
+
+![Repo Size](https://img.shields.io/github/repo-size/bislara/code-n-stitch.svg)
+![License](https://img.shields.io/github/license/bislara/code-n-stitch.svg)
+[![Hacktoberfest](https://img.shields.io/github/hacktoberfest/2020/bislara/code-n-stitch?suggestion_label=help%20wanted.svg)](https://github.com/bislara/code-n-stitch/issues)
+
+
+[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](http://ForTheBadge.com)
+[![ForTheBadge built-by-developers](http://ForTheBadge.com/images/badges/built-by-developers.svg)](http://ForTheBadge.com)
+[![ForTheBadge built-with-swag](http://ForTheBadge.com/images/badges/built-with-swag.svg)](http://ForTheBadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com)
+<!--[![ForTheBadge makes-people-smile](http://ForTheBadge.com/images/badges/makes-people-smile.svg)](http://ForTheBadge.com) -->
+
 This is a collection of small projects which are awesome and might help a developer or add a little fun in life. 
 This is an open repository ❤️.I would love to see people contributing to it.
 
-Do give a star ⭐ if you like this. 
+Do give a star ⭐ if you like this project. 
 
 ---
 
 ## 🤝 HOW TO CONTRIBUTE?
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)]()
-[![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+[![Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)]()
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
 - Find an Issue or Create your own Issues!
 - Wait for the admin's approval comment on the issue 
@@ -45,7 +58,7 @@ Go through the [CONTRIBUTION](https://github.com/bislara/code-n-stitch/blob/mast
 
 ## 💪 CONTRIBUTORS
 
-Thank you to all the contributors for adding your wonderfull codes to this repository ([emoji key](https://allcontributors.org/docs/en/emoji-key)): ✨
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)): ✨
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
