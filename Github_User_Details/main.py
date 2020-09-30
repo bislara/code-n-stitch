@@ -1,6 +1,7 @@
 #!/usr/bin/python
 import argparse
-import requests
+
+from functions import get_user_details
 
 
 DETAILS = [
@@ -17,11 +18,6 @@ DETAILS = [
     ('followers', 'Number of followers'),
     ('following', 'Number of following'),
 ]
-
-
-def get_user_details(username):
-    res = requests.get(f'https://api.github.com/users/{username}')
-    return res.json() if res.status_code == 200 else None
 
 
 if __name__ == '__main__':

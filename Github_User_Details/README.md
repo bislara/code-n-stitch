@@ -5,15 +5,17 @@ Get the details of a user using Github API.
 
 ## Install
 
-This project needs `requests` python package. So you may need
+This project needs a few python packages. So you may need
 to install it.
 
 
 ```sh
-$ pip install requests
+$ pip install -r requirements.txt
 ```
 
 ## Run
+
+### CLI
 
 To search for an user, pass it as an argument in command line.
 
@@ -21,4 +23,12 @@ To search for an user, pass it as an argument in command line.
 
 ```
 $ python main.py -u <username>
+```
+
+### GUI
+
+There is no arguments to run with gui.
+
+```
+$ python gui.py
 ```
