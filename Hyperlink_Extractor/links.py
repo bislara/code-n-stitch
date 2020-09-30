@@ -1,5 +1,6 @@
 import re
 import html
+import sys
 from typing import List
 
 def get_links(text: str) -> List[str]:
@@ -16,3 +17,6 @@ def get_links(text: str) -> List[str]:
         for item in re.findall(r'(http|https)(:\/\/)([^ \'"\s]*)', text)
     ]
 
+if __name__ == "__main__":
+    for link in get_links("".join(sys.argv[1:])):
+        print(link)
