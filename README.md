@@ -79,3 +79,30 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+
+## ❤️ PROJECT ADMIN
+
+|                                     <a href="https://github.com/bislara"><img src="https://avatars1.githubusercontent.com/u/35392585?s=460&u=84d17486cf01da61c7ebc27143a4de86b02c5457&v=4" width=150px height=150px /></a>                                      |
+| :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                                                      <b>Biswajeet Sahoo</b>
+
+---
+
+## ⭐ IMPORTANT LINKS TO GET STARTED?
+
+You can go through the following links to know more about using Git and GitHub.
+
+- [Forking a Repository](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
+- [Cloning a Repository](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories)
+- [Create a Pull Request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
+- [Addressing Merge Conflict](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/addressing-merge-conflicts)
+- [About Issues](https://docs.github.com/en/github/managing-your-work-on-github/managing-your-work-with-issues)
+- [About Git](https://docs.github.com/en/github/using-git)
+- [GitHub Commits](https://docs.github.com/en/github/committing-changes-to-your-project)
+
+
+---
+
+> **_Need any help? Feel free to contact me at [biswajeetsahoo54@gmail.com](mailto:biswajeetsahoo54@gmail.com?Subject=CodenStitch) 😇_**
+
