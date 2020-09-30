@@ -1,0 +1,25 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "DevanshD3",
+      "name": "Devansh Dixit",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/64734319?v=4",
+      "profile": "https://github.com/DevanshD3",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "code-n-stitch",
+  "projectOwner": "bislara",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
