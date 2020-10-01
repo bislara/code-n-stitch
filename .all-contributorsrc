@@ -46,6 +46,16 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "kamil200",
+      "name": "patel kamil",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/38882087?v=4",
+      "profile": "https://github.com/kamil200",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
