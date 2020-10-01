@@ -3,7 +3,7 @@ import re
 digits, points, specs = 0, 0, 0
 tooShort = False
 
-pwd = input()
+pwd = input("Enter password: ")
 pwdLen = len(pwd)
 
 if (pwdLen < 8):                # check if password length is too short (less than 8 digits)
