@@ -7,3 +7,4 @@
 - UrlShortener
 - WebsiteBlocker
 - YoutubeVideoAudioDownloader
+- PhoneNumberExtractor  
