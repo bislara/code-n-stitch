@@ -12,4 +12,4 @@ You can run the script directly without installing python or any requirements by
  
 1 - To start working with **Colab** you first need to log in to your google account.\
 2 - The notebook is consist of a code cell that contains the code to be executed and a Markdown cell which contains text formatted using Markdown and displays its output in-place when the Markdown cell is run.\
-3 - When you run the cell (<kbd>shift</kbd> + <kbd>enter</kbd>), its output will be displayed below.
+3 - When you run the cell, click (<kbd>shift</kbd> + <kbd>enter</kbd>) and its output will be displayed below.
