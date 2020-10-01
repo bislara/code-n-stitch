@@ -6,7 +6,7 @@
 
 ### 🔧 Installation:
 
-You can run the script directly without installing python or any requirements by clicking [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BatoolMM/code-n-stitch/blob/master/Convert_jpg_to_png/main.ipynb)
+In order to run the script directly without installing python or any requirements, click on [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BatoolMM/code-n-stitch/blob/master/Convert_jpg_to_png/main.ipynb)
  which is free cloud service.
  
  
