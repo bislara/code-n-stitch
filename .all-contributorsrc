@@ -86,6 +86,16 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "djeni98",
+      "name": "Djenifer",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/25268297?v=4",
+      "profile": "https://github.com/djeni98",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
