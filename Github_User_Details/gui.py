@@ -1,4 +1,5 @@
-from tkinter import *
+import tkinter as tk
+
 from tkinter import ttk
 
 from PIL import ImageTk
@@ -6,121 +7,170 @@ from PIL import ImageTk
 from main import DETAILS
 from functions import get_user_details, insert_new_line, get_user_image
 
-root = Tk()
-root.title('Github User Details')
+info_rows = DETAILS[1:]
 
 
-# --- Configure Header --- #
-header = Frame(root, bg='white')
-header.pack_configure(fill='x')
+class Header(tk.Frame):
+    def __init__(self, parent, *args, **kwargs):
+        super().__init__(parent, *args, **kwargs)
 
-github_img = PhotoImage(name='github', file='github.png')
-Label(
-    header,
-    image=github_img,
-    bg='white'
-).grid_configure(row=0, column=0, padx=10, pady=10)
+        self.img = tk.PhotoImage(file='github.png')
 
-Label(
-    header,
-    text='Github User Details',
-    font=('Helvetica', 12, 'bold'),
-    bg='white',
-).grid_configure(row=0, column=1, sticky=W)
-# --- #
+        self.label_img = tk.Label(self, image=self.img, bg='white')
+        self.label_img.grid(row=0, column=0, padx=10, pady=10)
+
+        font = ('Helvetica', 12, 'bold')
+        self.title = tk.Label(
+            self, text='Github User Details', bg='white', font=font
+        )
+        self.title.grid(row=0, column=1, sticky=tk.W)
 
 
-# --- Configure Searchbar --- #
-searchbar = Frame(root)
-searchbar.pack_configure(anchor='ne', pady=10, padx=5)
+class SearchBar(tk.Frame):
+    def __init__(self, parent, *args, **kwargs):
+        super().__init__(parent, *args, **kwargs)
+        self.parent = parent
 
-Label(
-    searchbar,
-    text='username',
-    font='TkFixedFont'
-).grid_configure(row=0, column=0)
+        self.label = tk.Label(self, text='username', font='TkFixedFont')
+        self.label.grid(row=0, column=0)
 
-style = ttk.Style()
-style.configure('TEntry', padding=4)
+        style = ttk.Style()
+        style.configure('TEntry', padding=4)
 
-user = StringVar()
-user_input = ttk.Entry(searchbar, textvariable=user)
-user_input.grid_configure(row=0, column=1, padx=5)
+        self.username = tk.StringVar()
+        self.input = ttk.Entry(self, textvariable=self.username)
+        self.input.grid(row=0, column=1, padx=5)
 
-search_img = PhotoImage(name='search', file='search.png')
-ttk.Button(
-    searchbar,
-    image=search_img,
-    text='Search',
-    command=lambda: search(user)
-).grid_configure(row=0, column=2)
-# --- #
+        self.img = tk.PhotoImage(name='search', file='search.png')
+        self.button = ttk.Button(
+            self, image=self.img, text='Search', command=self.search
+        )
+        self.button.grid(row=0, column=2)
 
-def search(username):
-    body.pack_forget()
-    error.pack_forget()
+        self.bind_all('<Return>', lambda e: self.search())
 
-    user = get_user_details(username.get())
-    print(f'Searching {username.get()}')
-    if user:
-        body.pack_configure(fill='x', pady=10, padx=5)
+    def search(self):
+        return self.parent.search(self.username.get())
 
+
+class UserContent(tk.Frame):
+    def __init__(self, parent, *args, **kwargs):
+        super().__init__(parent, *args, **kwargs)
+
+        self.img_label = tk.Label(self, text='')
+        self.img_label.grid(
+            row=0, column=0, rowspan=len(info_rows), padx=10, pady=10
+        )
+
+        self.labels = {}
+        self.string_vars = {}
+        self.string_labels = {}
+        for idx, (key, label) in enumerate(info_rows):
+            l = tk.Label(self, text=label)
+            l.grid(row=idx, column=1, sticky=tk.W)
+
+            sv = tk.StringVar()
+            sl = tk.Label(self, textvariable=sv)
+            sl.grid_configure(row=idx, column=2, sticky=tk.W)
+
+            self.labels[key] = l
+            self.string_vars[key] = sv
+            self.string_labels[key] = sl
+
+    def update(self, user):
         img = get_user_image(user['avatar_url']).resize((230, 230))
         user_img = ImageTk.PhotoImage(img)
 
-        user_img_label.configure(image=user_img)
-        user_img_label.image = user_img
+        self.img_label.configure(image=user_img)
+        self.img_label.image = user_img
 
         for idx, (key, label) in enumerate(info_rows):
             text = user[key] if user[key] is not None else '(not provided)'
             if key != 'bio':
-                info_str_var[key].set(text)
+                self.string_vars[key].set(text)
             else:
-                info_str_var[key].set(insert_new_line(text))
-    else:
-        error.pack_configure(pady=20)
-
-# --- Configure Body --- #
-container = Frame(root)
-container.pack_configure(fill='x', pady=10, padx=5)
-
-body = Frame(container)
-# body.pack_configure(fill='x', pady=10, padx=5)
-
-info_rows = DETAILS[1:]
-
-user_img_label = Label(body, text='')
-user_img_label.grid_configure(
-    row=0, column=0, rowspan=len(info_rows), padx=10, pady=10
-)
-
-#  Info  #
-info_str_var = {}
-for idx, (key, label) in enumerate(info_rows):
-    Label(body, text=label).grid_configure(row=idx, column=1, sticky=W)
-    str_var = StringVar()
-    str_label = Label(body, textvariable=str_var).grid_configure(row=idx, column=2, sticky=W)
-
-    info_str_var[key] = str_var
-
-#  Invalid User  #
-
-error = Frame(container)
-Label(error, text='Invalid User', fg='red', font=('Helvetica', 14, 'bold')).grid()
-
-# --- #
-
-# --- Configure Footer --- #
-footer = Frame(root)
-footer.pack_configure(anchor='se', expand=True, pady=5, padx=5)
-
-ttk.Button(
-    footer,
-    text='Close',
-    command=lambda: root.destroy()
-).grid_configure(row=0, column=0)
+                self.string_vars[key].set(insert_new_line(text))
 
 
-root.bind('<Return>', lambda e: search(user))
-root.minsize(500, 200)
-root.mainloop()
+class ErrorFrame(tk.Frame):
+    def __init__(self, parent, *args, **kwargs):
+        super().__init__(parent, *args, **kwargs)
+        self.label = tk.Label(
+            self, text='Invalid User', fg='red', font=('Helvetica', 14, 'bold')
+        )
+        self.label.grid()
+
+
+class Body(tk.Frame):
+    def __init__(self, parent, *args, **kwargs):
+        super().__init__(parent, *args, **kwargs)
+
+        self.user_frame = UserContent(self)
+        self.error_frame = ErrorFrame(self)
+
+    def display_user(self, data):
+        self.user_frame.update(data)
+        self.user_frame.pack(fill='x', pady=10, padx=5)
+
+    def display_error(self):
+        self.error_frame.pack(pady=20)
+
+    def hide(self):
+        self.user_frame.pack_forget()
+        self.error_frame.pack_forget()
+
+
+class Footer(tk.Frame):
+    def __init__(self, parent, *args, **kwargs):
+        super().__init__(parent, *args, **kwargs)
+        self.parent = parent
+
+        self.button = ttk.Button(
+            self, text='Close', command=parent.close
+        )
+        self.button.grid(row=0, column=0)
+
+
+class MainApplication(tk.Frame):
+    def __init__(self, parent, *args, **kwargs):
+        super().__init__(parent, *args, **kwargs)
+        self.parent = parent
+
+        self.header = Header(self, bg='white')
+        self.header.pack(fill='x')
+
+        self.searchbar = SearchBar(self)
+        self.searchbar.pack(anchor='ne', pady=10, padx=5)
+
+        self.body = Body(self)
+        self.body.pack(fill='x', pady=10, padx=5)
+
+        self.footer = Footer(self)
+        self.footer.pack(anchor='se', expand=True, pady=5, padx=5)
+
+    def close(self):
+        return self.parent.destroy()
+
+    def search(self, username):
+        self.body.hide()
+
+        user = get_user_details(username)
+        if user:
+            self.body.display_user(user)
+        else:
+            self.body.display_error()
+
+
+def run_app():
+    root = tk.Tk()
+
+    app = MainApplication(root)
+    app.pack(side='top', fill='both', expand=True)
+
+    root.title('Github User Details')
+    root.minsize(500, 200)
+    root.mainloop()
+
+
+if __name__ == '__main__':
+    run_app()
