@@ -6,22 +6,22 @@ tooShort = False
 pwd = input()
 pwdLen = len(pwd)
 
-if (pwdLen < 8):
+if (pwdLen < 8):                # check if password length is too short (less than 8 digits)
     tooShort = True
 
-def isDigit(i):
+def isDigit(i):                     # check if character is a digit
     if (i >= '0' and i <= '9'):
         return True
     else:
         return False
 
 for i in range (pwdLen):
-    if pwd[i].islower() or pwd[i].isupper():
+    if pwd[i].islower() or pwd[i].isupper():       # check if character is an upper/lowercase alphabet
         points += 1
     elif isDigit(pwd[i]):
         digits += 1
     else:
-        specs += 1
+        specs += 1                                  # if character isn't alphabet or digit, we'll assume it's a symbol/special character
 
 if specs < 2:
     print("Password must contain at least 2 special characters!")
