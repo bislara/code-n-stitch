@@ -66,6 +66,16 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "pgirikishore",
+      "name": "P Giri Kishore",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/48059119?v=4",
+      "profile": "http://girikishore.me",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
