@@ -1,6 +1,6 @@
 # CODE and STITCH 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
@@ -71,6 +71,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/DevanshD3"><img src="https://avatars1.githubusercontent.com/u/64734319?v=4" width="100px;" alt=""/><br /><sub><b>Devansh Dixit</b></sub></a><br /><a href="https://github.com/bislara/code-n-stitch/commits?author=DevanshD3" title="Code">💻</a> <a href="https://github.com/bislara/code-n-stitch/commits?author=DevanshD3" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/bislara"><img src="https://avatars1.githubusercontent.com/u/35392585?v=4" width="100px;" alt=""/><br /><sub><b>Biswajeet Sahoo</b></sub></a><br /><a href="https://github.com/bislara/code-n-stitch/commits?author=bislara" title="Code">💻</a> <a href="https://github.com/bislara/code-n-stitch/commits?author=bislara" title="Documentation">📖</a> <a href="#maintenance-bislara" title="Maintenance">🚧</a> <a href="https://github.com/bislara/code-n-stitch/pulls?q=is%3Apr+reviewed-by%3Abislara" title="Reviewed Pull Requests">👀</a></td>
     <td align="center"><a href="https://github.com/Volku"><img src="https://avatars2.githubusercontent.com/u/24636605?v=4" width="100px;" alt=""/><br /><sub><b>Natchanon Maneechote</b></sub></a><br /><a href="https://github.com/bislara/code-n-stitch/commits?author=Volku" title="Code">💻</a> <a href="https://github.com/bislara/code-n-stitch/commits?author=Volku" title="Documentation">📖</a></td>
+    <td align="center"><a href="http://pranav6670.github.io"><img src="https://avatars1.githubusercontent.com/u/31882923?v=4" width="100px;" alt=""/><br /><sub><b>Pranav  Natekar</b></sub></a><br /><a href="https://github.com/bislara/code-n-stitch/commits?author=pranav6670" title="Code">💻</a> <a href="https://github.com/bislara/code-n-stitch/commits?author=pranav6670" title="Documentation">📖</a></td>
   </tr>
 </table>
 
