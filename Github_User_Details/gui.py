@@ -40,6 +40,7 @@ class SearchBar(tk.Frame):
         self.username = tk.StringVar()
         self.input = ttk.Entry(self, textvariable=self.username)
         self.input.grid(row=0, column=1, padx=5)
+        self.input.focus()
 
         self.img = tk.PhotoImage(name='search', file='search.png')
         self.button = ttk.Button(
