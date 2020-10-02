@@ -126,6 +126,16 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "devil-cyber",
+      "name": "Manikant Kumar",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/52333306?v=4",
+      "profile": "http://manikant.herokuapp.com/",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
