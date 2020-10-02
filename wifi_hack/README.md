@@ -17,9 +17,9 @@ This hack can be used to get wifi passwords stored on your device by running a s
 
 ## Images
 1. Script Output:
-<img src="./images/script.png" alt="script-output">
+<img src="./images/script.PNG" alt="script-output">
 2. GUI Output:
-<img src="./images/gui_output.png" alt="gui-output">
+<img src="./images/gui_output.PNG" alt="gui-output">
 
 ## Contributed by
 * [harshit-saraswat](https://github.com/harshit-saraswat)
