@@ -10,7 +10,6 @@
 [![GitHub stars](https://img.shields.io/github/stars/bislara/code-n-stitch.svg?style=social&label=Star&maxAge=2592000)](https://bislara/code-n-stitch/stargazers/)
 
 
-[![GitHub contributors](https://img.shields.io/github/contributors/bislara/code-n-stitch.svg)](https://GitHub.com/bislara/code-n-stitch/graphs/contributors/)
 [![GitHub issues](https://img.shields.io/github/issues/bislara/code-n-stitch.svg)](https://github.com/bislara/code-n-stitch/issues)
 [![GitHub issues closed](https://img.shields.io/github/issues-closed/bislara/code-n-stitch.svg)](https://github.com/bislara/code-n-stitch/issues?q=is%3Aissue+is%3Aclosed)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/bislara/code-n-stitch.svg)](https://github.com/bislara/code-n-stitch/pulls)
