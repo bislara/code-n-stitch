@@ -106,6 +106,16 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "harshit-saraswat",
+      "name": "Harshit Saraswat",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/41959164?v=4",
+      "profile": "https://harshit-saraswat.github.io/css-personal-cv/",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
