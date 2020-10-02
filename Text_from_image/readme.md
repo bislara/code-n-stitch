@@ -19,3 +19,7 @@ python -m tkinter
 ~~~
 5. You can now run main.py to open the application.
 6. Thank you for using my application.
+
+# Screenshots
+
+![](Screenshot.png)
