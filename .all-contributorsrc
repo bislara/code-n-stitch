@@ -136,6 +136,16 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "adripo",
+      "name": "adripo",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/26493496?v=4",
+      "profile": "https://github.com/adripo",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
