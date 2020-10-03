@@ -14,10 +14,17 @@ class TwilioClient:
         self.client = Client(account_sid, auth_token)
 
     def send_messages(self, message, phone_number):
-        self.client.messages.create(from_=self.sender_number, body=message, to=phone_number)
+        try:
+            self.client.messages.create(from_=self.sender_number, body=message, to=phone_number)
+        except Exception as e:
+            print('Failed to send message {}'.format(e))
 
     @staticmethod
     def is_valid_number(number):
+        """
+        Check whether it's a possible number (e.g. it has the right number of digits)
+        or a valid number (e.g. it's in an assigned exchange)
+        """
         if not isinstance(number, str):
             number = str(number)
         try:
