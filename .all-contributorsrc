@@ -146,6 +146,16 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "gs202",
+      "name": "Gabriel Shekler",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/46564521?v=4",
+      "profile": "https://github.com/gs202",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
