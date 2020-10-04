@@ -166,6 +166,16 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "ronanren",
+      "name": "Ronan",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/41382112?v=4",
+      "profile": "http://ronanren.github.io",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
