@@ -7,3 +7,5 @@ How to use:
 * Run the script :)
 
 The script will accept the SMS body and recipient number from the user, validate the phone number and send the SMS
+
+![Alt text](successful.jpeg?raw=true "Example")
