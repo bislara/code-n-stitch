@@ -8,3 +8,5 @@ How to use:
 * Run the script
 
 The OTP code will be copied into your clipboard
+
+![Alt text](otp_2_clipboard.jpeg?raw=true "MAC clipboard")
