@@ -43,7 +43,7 @@ for id in match_id:
 
 while True:
 
-    print("Live Score of the ongoing match is as follows : ")
+    print("Live Score of the ongoing/over match is as follows : ")
     for id in match_id:
         live_score(id)
     message = input("Do you want to refresh the score ? [Y/N]")
