@@ -40,10 +40,17 @@ def export_results(dict1):
         for result in results:
             for file in result:
                 print(f'\t{file}')
+                write_to_file(f'\t{file}\n', result_file_name)
             print(separation_line)
+            write_to_file(f'{separation_line}\n', result_file_name)
         print(f'Results are saved to: {result_file_name}')
     else:
         print('No duplications found')
+
+
+def write_to_file(text, file_name):
+    with open(file_name, 'a') as the_file:
+        the_file.write(text)
 
 
 if __name__ == '__main__':
