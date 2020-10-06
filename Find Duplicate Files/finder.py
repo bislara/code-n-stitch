@@ -28,6 +28,25 @@ def calculate_hash(path):
     return hasher.hexdigest()
 
 
+def export_results(dict1):
+    results = list(filter(lambda x: len(x) > 1, dict1.values()))
+    print(separation_line)
+    if len(results) > 0:
+        print(
+            f'Found {len(results)} duplications\n'
+            f'The following files are identical, the name could differ, but the content is identical'
+        )
+        print(separation_line)
+        for result in results:
+            for file in result:
+                print(f'\t{file}')
+            print(separation_line)
+        print(f'Results are saved to: {result_file_name}')
+    else:
+        print('No duplications found')
+
+
 if __name__ == '__main__':
     path_to_scan = input('Enter path to check for duplicate files: ')
-    find_duplicates(path_to_scan)
+    duplicates = find_duplicates(path_to_scan)
+    export_results(duplicates)
