@@ -8,4 +8,4 @@ Run the following command on your cmd/linux terminal:
 ``$ python ipl_score_notifier2.py``
 
 ### Screenshot (Output):
-<img src="./test.png" width="350" title="Output">
+<img src="./test.png" width="500" title="Output">
