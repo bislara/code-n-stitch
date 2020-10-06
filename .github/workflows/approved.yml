@@ -1,0 +1,41 @@
+on:
+  pull_request_review:
+    types: [submitted]
+    branches: ['master','dev']
+    paths: [' **path/**']
+
+jobs:
+  approved:
+    runs-on: ubuntu-latest
+    steps:
+      - name: On approval
+        uses: actions/github-script@v3
+        if: github.event.review.state == 'approved'
+        with:
+          github-token: ${{secrets.GITHUB_TOKEN}}
+          script: |
+            const creator = context.payload.sender.login
+            // Get a list of all approved pull requests by the owner
+            const opts = github.issues.listForRepo.endpoint.merge({
+              ...context.issue,
+              creator,
+              state: 'approved'
+            })
+            const issues = await github.paginate(opts)
+
+            for (const issue of issues) {
+              if (issue.number === context.issue.number) {
+                continue
+              }
+
+              if (issue.pull_request) {
+                return // Creator is already a contributor.
+              }
+            }
+
+            github.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: `Approved! Good job ${creator}!`
+            })
