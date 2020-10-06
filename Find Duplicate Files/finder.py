@@ -1,12 +1,12 @@
 import os
 import hashlib
-
+from typing import Dict, List
 
 result_file_name = 'results.txt'
 separation_line = '___________________'
 
 
-def find_duplicates(root_dir):
+def find_duplicates(root_dir) -> Dict[str, List[str]]:
     files = {}
     for dir_name, _, file_list in os.walk(root_dir):
         print(f'Scanning folder: {dir_name}')
