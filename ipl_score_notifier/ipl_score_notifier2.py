@@ -1,7 +1,9 @@
 from pycricbuzz import Cricbuzz
+from win10toast import ToastNotifier 
 import json
 
 c = Cricbuzz()
+n = ToastNotifier() 
 matches = c.matches()
 
 srs_to_watch = "Indian Premier League 2020"
@@ -31,6 +33,8 @@ def live_score(mid):
         print("Innings No : " + lscore["batting"]["score"][0]["inning_num"])
         print( lscore["batting"]["team"] +   " : " + lscore["batting"]["score"][0]["runs"] + "/" + 
         lscore["batting"]["score"][0]["wickets"] + " in " + lscore["batting"]["score"][0]["overs"] + " overs" )
+        message = lscore["batting"]["team"]  +   " : " + lscore["batting"]["score"][0]["runs"] + "/" + lscore["batting"]["score"][0]["wickets"] + " in " + lscore["batting"]["score"][0]["overs"] + " overs"
+        n.show_toast("LIVE MATCH SCORE",message, duration = 10)
 
 
 for i in matches:
