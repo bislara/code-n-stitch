@@ -216,6 +216,16 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "devanaggarwal",
+      "name": "Devan Aggarwal",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/42859208?v=4",
+      "profile": "https://github.com/devanaggarwal",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
