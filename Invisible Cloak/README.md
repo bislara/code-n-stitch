@@ -12,3 +12,5 @@ First open your Terminal/command-prompt. Then run the following commands
 pip install -r requirements.txt
 python invisible.py
 ```
+
+![Test Image 4](https://github.com/shubham2704/code-n-stitch/blob/39-invisible-cloak/Invisible%20Cloak/Screenshot.png)
