@@ -4,23 +4,40 @@ from io import BytesIO
 from reportlab.pdfgen import canvas
 from reportlab.lib.pagesizes import letter
 from reportlab.lib.utils import ImageReader
+from PIL import Image 
 from PyPDF2 import PdfFileReader, PdfFileWriter
 
 FILE_IN = ''
 FILE_OUT = ''
 
+def transparency(image, alpha= 125):
+    newData = []
+    for item in image:
+        if item[0] == 255 and item[1] == 255 and item[2] == 255:
+            newData.append((255, 255, 255, 0))
+        else:
+            if any(i< 20 for i in item[:3]):
+                newData.append(item)
+            else:
+                newData.append((item[0],item[1],item[2],alpha))
+    return newData
 
 def watermarking(input_path: str, watermark_path: str, output_path:str):
     # Detecting if watermark is img or pdf
     if watermark_path.endswith('.pdf'):
         watermark = PdfFileReader(watermark_path).getPage(0)
     else:
-        img_temp = BytesIO()
-        image_watermark = ImageReader(watermark_path)
-        new_canvas = canvas.Canvas(img_temp, pagesize=letter)
-        new_canvas.drawImage(image_watermark, 90, 200, 400, 400, mask='auto')
+        img = BytesIO()
+        image_watermark = Image.open(watermark_path).convert('RGBA')
+        new_data = transparency(image_watermark.getdata())
+        image_watermark.putdata(new_data)
+        image_watermark.save(img, 'PNG')
+        new_img = ImageReader(img)        
+        img_doc = BytesIO()
+        new_canvas = canvas.Canvas(img_doc, pagesize=letter)
+        new_canvas.drawImage(new_img, 90, 200, 400, 400, mask='auto')
         new_canvas.save()
-        watermark = PdfFileReader(BytesIO(img_temp.getvalue())).getPage(0)
+        watermark = PdfFileReader(BytesIO(img_doc.getvalue())).getPage(0)
     
     pdf_in = PdfFileReader(input_path)
     pdf_out = PdfFileWriter()
