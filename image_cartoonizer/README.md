@@ -13,6 +13,12 @@ pipenv install
 pipenv shell
 ```
 
+## Installing with pip
+
+```sh
+pip install -r requirements.txt
+```
+
 ## CLI
 
 - simple command
