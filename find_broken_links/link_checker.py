@@ -14,6 +14,8 @@ def link_broken(link):
         return False
     except requests.HTTPError:
         return True
+    except Exception:
+        return True
 
 def find_broken_links(address):
     """Given a base URL, extracts all links found in elements that may possess them.
