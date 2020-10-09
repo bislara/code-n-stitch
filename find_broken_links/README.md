@@ -12,4 +12,13 @@ Please check the appropriate way to install it in your Operating System.
 ## How to run
 
 Inside this folder, run `python3 gui.py`.
-In the `screenshots` folder you can find examples of calls to websites with and without broken links, as well as an initial status of the tool and the GUI.
+
+## Screenshots
+### Initial status
+![Tool GUI at startup](screenshots/PreUsage.png)
+
+### Website with broken links
+![Tool output on a website with broken links](screenshots/Output_WithBrokenLinks.png)
+
+### Website without broken links
+![Tool output on a website without broken links](screenshots/Output_NoBrokenLinks.png)
