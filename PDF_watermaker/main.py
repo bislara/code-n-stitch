@@ -11,6 +11,7 @@ FILE_OUT = ''
 
 
 def watermarking(input_path: str, watermark_path: str, output_path:str):
+    # Detecting if watermark is img or pdf
     if watermark_path.endswith('.pdf'):
         watermark = PdfFileReader(watermark_path).getPage(0)
     else:
@@ -24,6 +25,7 @@ def watermarking(input_path: str, watermark_path: str, output_path:str):
     pdf_in = PdfFileReader(input_path)
     pdf_out = PdfFileWriter()
     
+    #Iterating on pages ading to each one
     for page_num in range(pdf_in.getNumPages()):
         page = pdf_in.getPage(page_num)
         page.mergePage(watermark)
