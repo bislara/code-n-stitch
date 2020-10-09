@@ -246,6 +246,16 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "Frans06",
+      "name": "Frans Ramirez",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/5842109?v=4",
+      "profile": "http://fransramirez.hol.es",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
