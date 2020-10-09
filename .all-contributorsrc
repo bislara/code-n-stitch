@@ -256,6 +256,16 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "cyrilico",
+      "name": "JP Damas",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19289022?v=4",
+      "profile": "https://cyrili.co",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
