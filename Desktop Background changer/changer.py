@@ -4,11 +4,13 @@ import ctypes
 import time
 
 
-def change_background(image_path):
+def change_background(image_path: str):
     os = platform.system().lower()
+    print(f'Setting background {image_path}')
     try:
         if 'darwin' in os:  # macOS
-            from appscript import app, mactypes
+            from appscript import app, mactypes  # load only for macOS
+
             app('Finder').desktop_picture.set(mactypes.File(image_path))
         elif 'linux' in os:  # linux
             command = f"gsettings set org.gnome.desktop.background picture-uri '{image_path}'"
@@ -19,7 +21,7 @@ def change_background(image_path):
         print(f'Failed to set background at path {image_path}\n', e)
 
 
-def images_selection():
+def background_selection() -> list:
     images = []
     while True:
         image = input('Provide image path to be set as background:')
@@ -30,7 +32,7 @@ def images_selection():
     return images
 
 
-def internal_selection():
+def set_interval() -> int:
     internal = input("You've selected multiple images, select time internal (in minutes) for images to change: ")
     while True:
         try:
@@ -39,16 +41,16 @@ def internal_selection():
             internal = input('Internal should be a number: ')
 
 
-def images_rotation(images):
-    internal = 0 if len(images) == 1 else internal_selection()
+def background_rotation(images: list):
+    internal = 0 if len(images) == 1 else set_interval()
     for image in images:
         change_background(image)
         time.sleep(internal)
 
 
 if __name__ == '__main__':
-    images = images_selection()
-    if not images:
+    bg_images = background_selection()
+    if not bg_images:
         print('No images selected')
         exit()
-    images_rotation(images)
+    background_rotation(bg_images)
