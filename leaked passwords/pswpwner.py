@@ -3,7 +3,7 @@ import hashlib
 import sys
 # import argparse
 from pyfiglet import Figlet  # pip install pyfiglet
-from termcolor import colored
+from termcolor import colored # pip install termcolor
 
 
 usage = """
@@ -29,7 +29,7 @@ def api_data_request(query):
 def get_psw_leak_count(hashes, hash_to_check):
     hashes = (line.split(':') for line in hashes.text.splitlines())
     for h, count in hashes:
-        # get the particular hash with tail matching matching hash-to-check
+        # get the particular hash with tail matching hash-to-check
         if h == hash_to_check:
             return count
     return 0
@@ -56,7 +56,7 @@ def main(args):
 
 def handle_arg(args):
     if len(args) == 2 and args[1].endswith('.txt'):
-        main(sys.exit(main(open(sys.argv[1], 'r'))))
+        sys.exit(main(open(sys.argv[1], 'r')))
     if len(args) > 1:
         sys.exit(main(args[1:]))
     else:
