@@ -1,15 +1,26 @@
 import requests
 import hashlib
 import sys
-import re
-import argparse
-from pathlib import Path
-from pprint import pprint
+# import argparse
+from pyfiglet import Figlet  # pip install pyfiglet
+from termcolor import colored
+
+
+usage = """
+[*] usage: pswpwner.py [password ... [single password] or [multiple password] or [txt file]]
+[*] Note: only txt files can be used
+"""
 
 
 def api_data_request(query):
+    # query the api with the first5 of paswd hash
     url = 'https://api.pwnedpasswords.com/range/' + query
-    response = requests.get(url)
+    try:
+        response = requests.get(url)
+    except requests.exceptions.ConnectionError as e:
+        print(f"Error fetching from the internet! check your internet connection and try again\
+                \n{e}")
+        quit()
     if response.status_code != 200:
         raise RuntimeError(f'error fetching {query}: please check status code')
     return response
@@ -18,38 +29,41 @@ def api_data_request(query):
 def get_psw_leak_count(hashes, hash_to_check):
     hashes = (line.split(':') for line in hashes.text.splitlines())
     for h, count in hashes:
+        # get the particular hash with tail matching matching hash-to-check
         if h == hash_to_check:
             return count
     return 0
 
 
 def check_pwnage(password):
+    # hash the provided password
     hash = hashlib.sha1(password.encode('utf-8')).hexdigest().upper()
     first5, tail = hash[:5], hash[5:]
+    # the api will return a list of pswds that has their hash starting with first5
     res = api_data_request(first5)
     return get_psw_leak_count(res, tail)
 
 
 def main(args):
     for password in args:
-        count = check_pwnage(password)
+        count = check_pwnage(password.rstrip())
         if count:
-            print(f'it seems your password {password} has been pawned {count} times')
+            print(colored(f'[x] {password} ->\t{count}', 'red'))
         else:
-            print(f'{password} not found, carry on!')
+            print(colored(f'[+] {password} ->\tNo Leaks', 'green'))
     return 'done!'
 
-if __name__ == '__main__':
-    sys.exit(main(open(sys.argv[1], 'r')))
 
-# create command line args and flags
-# to check single password
-# to check single email
-# to check  multiple passwords
-# to check multiple emails
-# to check a list of psw's or emails
-# a helper function
-# better error handling
-# using argsparser
-# to check passwords or email or combination of passwords/ emails in a file or multiple files
-# using regex, argspaser, file I/O, pathlib, pyfiglet, pprint, askpass.
+def handle_arg(args):
+    if len(args) == 2 and args[1].endswith('.txt'):
+        main(sys.exit(main(open(sys.argv[1], 'r'))))
+    if len(args) > 1:
+        sys.exit(main(args[1:]))
+    else:
+        print(usage)
+
+
+if __name__ == '__main__':
+    cli_fig = Figlet(font='slant')
+    print(cli_fig.renderText("PSW-Leak"))
+    handle_arg(sys.argv)
