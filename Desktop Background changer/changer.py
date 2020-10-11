@@ -43,9 +43,10 @@ def set_interval() -> int:
 
 def background_rotation(images: list):
     internal = 0 if len(images) == 1 else set_interval()
-    for image in images:
-        change_background(image)
-        time.sleep(internal)
+    while True:
+        for image in images:
+            change_background(image)
+            time.sleep(internal)
 
 
 if __name__ == '__main__':
