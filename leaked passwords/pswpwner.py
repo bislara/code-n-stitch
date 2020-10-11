@@ -2,12 +2,12 @@ import requests
 import hashlib
 import sys
 # import argparse
-from pyfiglet import Figlet  # pip install pyfiglet
-from termcolor import colored # pip install termcolor
+from pyfiglet import Figlet
+from termcolor import colored
 
 
 usage = """
-[*] usage: pswpwner.py [password ... [single password] or [multiple password] or [txt file]]
+[*] usage: pswpwner.py [password ... [single password] or [multiple passwords] or [txt file]]
 [*] Note: only txt files can be used
 """
 
@@ -54,10 +54,12 @@ def main(args):
     return 'done!'
 
 
-def handle_arg(args):
-    if len(args) == 2 and args[1].endswith('.txt'):
+def handle_args(args):
+    if args[1] == '-h' or args[1] == '--help':
+            print(usage)
+    elif len(args) == 2 and args[1].endswith('.txt'):
         sys.exit(main(open(sys.argv[1], 'r')))
-    if len(args) > 1:
+    elif len(args) > 1:
         sys.exit(main(args[1:]))
     else:
         print(usage)
@@ -66,4 +68,4 @@ def handle_arg(args):
 if __name__ == '__main__':
     cli_fig = Figlet(font='slant')
     print(cli_fig.renderText("PSW-Leak"))
-    handle_arg(sys.argv)
+    handle_args(sys.argv)
