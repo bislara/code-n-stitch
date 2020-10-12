@@ -11,7 +11,8 @@ python quiz.py
 ## To add more questions to the game:
 
 Open the ```quiz_questions.csv``` file and add question, options and answers according to the column name.<br>
-(Note: While adding answer please make sure that the option exactly matches the answer)
+> (Note: While adding answer please make sure that the option exactly matches the answer)
+
 ![Quiz App](images/sample_question_file.png)
 
 ## Quiz App Image
