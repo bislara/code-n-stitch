@@ -37,8 +37,8 @@ python main.py --help
 
 ### Watermarked PDF
 
-![Alt text](./pdf_in.png?raw=true "original pdf")
+![Alt text](./pdf_out.png?raw=true "watermarked pdf")
 
 ### Orginal PDF
 
-![Alt text](./pdf_out.png?raw=true "watermarked pdf")
+![Alt text](./pdf_in.png?raw=true "original pdf")
