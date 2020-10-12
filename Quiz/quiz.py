@@ -19,7 +19,7 @@ questions = []
 def get_ques():
     global count
     global questions
-    with open('quiz_questions.csv') as f:
+    with open('Quiz/quiz_questions.csv') as f:
         quiz = csv.reader(f, delimiter=',')
         column_count = 0
         for i in quiz:
