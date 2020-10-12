@@ -7,6 +7,7 @@ window = tk.Tk()
 window.columnconfigure(0, minsize=400, weight=1)
 window.rowconfigure([0, 1], minsize=240, weight=1)
 window.configure()
+window.title("Quiz")
 count = 0
 score = 0
 
