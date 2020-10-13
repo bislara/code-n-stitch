@@ -11,12 +11,13 @@ window.title("Quiz")
 count = 0
 score = 0
 
+wrong_questions = []
 question_font = font.Font(family='Impact', size=18)
 option_font = font.Font(family='Impact', size=13)
 
 questions = []
 
-
+# Get all the questions from the csv file and store them in a global variable
 def get_ques():
     global count
     global questions
@@ -35,23 +36,36 @@ get_ques()
 
 question_number = len(questions)-1
 
-
+#Check answer and move to the next question
 def check_answer(chosen, correct):
     global score
     global count
     if chosen == correct:
         score += 1
 
-        print(score)
+        
     else:
-        print(score)
+        wrong_questions.append(questions[count])
 
     if(count != question_number):
         count += 1
     else:
+        
+        if len(wrong_questions) !=0:
+            wrong = 'WRONG QUESTIONS'
+            for i in wrong_questions:
+                wrong = wrong + f'\n\nQuestion: {i[0]} \nCorrect Anwser:{i[5]}'
+            messagebox.showinfo(
+                title='Wrong Questions', message=wrong)
+        else:
+            messagebox.showinfo(
+                title='Congratulations', message='Congratulations you have aced the quiz!')
+        
         messagebox.showinfo(
-            title='Score', message=f'Your Final score is {score}')
+            title='Score', message=f'Your Final score is {score} out of {count+1}')
+        
         window.destroy()
+
     question_label.configure(text=f'{count+1}.{questions[count][0]}:')
     option_a.configure(text=f'{questions[count][1]}')
     option_b.configure(text=f'{questions[count][2]}')
