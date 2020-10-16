@@ -33,7 +33,7 @@ while option == 'base64' or option == 'morse' or option == 'hex' or option == 'c
         if choice == 'd':
             print(bytes.fromhex(message).decode('utf-8'))
     if option == 'caesar cipher':
-        def encrypt(message,s):
+        def encrypt(message):
             s = int(input("Please enter the shift number you'd like (Exmaple: 4): "))
             result = ""
             # transverse the plain text
