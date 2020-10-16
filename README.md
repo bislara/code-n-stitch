@@ -1,6 +1,6 @@
 # CODE and STITCH 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-30-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-31-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
@@ -105,6 +105,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/Atharva8"><img src="https://avatars2.githubusercontent.com/u/32236450?v=4" width="100px;" alt=""/><br /><sub><b>Atharva</b></sub></a><br /><a href="https://github.com/bislara/code-n-stitch/commits?author=Atharva8" title="Code">💻</a> <a href="https://github.com/bislara/code-n-stitch/commits?author=Atharva8" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/TestPrab"><img src="https://avatars3.githubusercontent.com/u/59395410?v=4" width="100px;" alt=""/><br /><sub><b>TestPrab</b></sub></a><br /><a href="#tool-TestPrab" title="Tools">🔧</a> <a href="https://github.com/bislara/code-n-stitch/commits?author=TestPrab" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/bunnysworld"><img src="https://avatars1.githubusercontent.com/u/42912055?v=4" width="100px;" alt=""/><br /><sub><b>Akash Dwivedi</b></sub></a><br /><a href="https://github.com/bislara/code-n-stitch/commits?author=bunnysworld" title="Code">💻</a> <a href="https://github.com/bislara/code-n-stitch/commits?author=bunnysworld" title="Documentation">📖</a></td>
   </tr>
 </table>
 
