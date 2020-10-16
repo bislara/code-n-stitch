@@ -42,3 +42,4 @@
 | 41   | [Wifi Password](/Python/wifi_hack)             | Get the wifi password of which are saved in your device                                  | harshit-saraswat |
 | 42   | [WikiPedia Searcher](/Python/wikipedia_searcher)         | Search any topic on wikipedia                                                            | 10smruti         |
 | 43   | [Scrap Email](/Python/Scrap_Email)                | Python Script to scrap email from the given url                                      | namanshah01      |
+| 44   | [Covid 19 Gif Generator](/Python/covid_19)        | Python Script to make a gif showing how the countries were affected by Covif 19      | bunnysworld |
