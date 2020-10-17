@@ -1,24 +1,36 @@
 from PIL import Image
 
-dot_char = [' ', '.']
+def convert(image_path, width=100, threshold=100):
+    """
+    Takes in the path of the image [image_path] and converts it into ascii version of the image
+    Optional paramaters:
+        + width --> width of the ascii art
+        + threshold --> value at which the pixels are differentiated into ascii characters
 
-def convert(imagefile, new_width=100, threshold=100):
-  """
-  Takes imagefile [path to an image] and returns ASCII version of the image
-  Optional Parameters:
-    + new_width -> width of the ascii version [Note: smaller width causes image to lose details]
-    + threshold -> value for which the pixel should be converted into a '.' or ' ' [must lie b/w 0 & 255]
-  """
-	image = Image.open(imagefile)
-	width, height = image.size
-	ratio = width/height
-	new_height = int(new_width * ratio)
-	image = image.resize((new_width, new_height))
+    Usage:
+    >>> print(convert("path/to/the/image"))
+    >>> print(convert("path/to/the/image", width=50, threshold=200))
 
-	image = image.convert('L')  # converting image to grayscale
-	pixels = image.getdata()  # getting data of pixels in the grayscaled image
-	characters = "".join([' ' if pixel < threshold else '.' for pixel in pixels])
+    Example Usage:
+    >>> print(convert("sample.png", width=60, threshold=150))
+    """
+    image = Image.open(image_path)
+    og_width, og_height = image.size
+    ratio = og_height / og_width
+    height = int(width * ratio)//2
+    image = image.resize((width, height)) # resizing the image
 
-	pixel_count = len(characters)
-	ascii_image = "\n".join([characters[index:index+new_width] for index in range(0, pixel_count, new_width)])
-	return ascii_image
+    image = image.convert("L")  # converting image to grayscale
+    pixels = image.getdata()  # getting data of pixels in the grayscaled image
+    characters = "".join(
+        [" " if pixel < threshold else "." for pixel in pixels]
+    )
+
+    pixel_count = len(characters)
+    ascii_image = "\n".join(
+        [
+            characters[index: index + width]
+            for index in range(0, pixel_count, width)
+        ]
+    )
+    return ascii_image
