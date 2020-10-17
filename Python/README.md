@@ -43,3 +43,4 @@
 | 42   | [WikiPedia Searcher](/Python/wikipedia_searcher)         | Search any topic on wikipedia                                                            | 10smruti         |
 | 43   | [Scrap Email](/Python/Scrap_Email)                | Python Script to scrap email from the given url                                      | namanshah01      |
 | 44   | [Covid 19 Gif Generator](/Python/covid_19)        | Python Script to make a gif showing how the countries were affected by Covif 19      | bunnysworld |
+| 45   | [Image to ASCII converter](/Python/Image%20to%20ASCII%20converter)        | Python Script to convert an image into its ascii version      | volt9801 |
