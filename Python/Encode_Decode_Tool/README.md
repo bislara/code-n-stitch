@@ -56,5 +56,7 @@ And follow the instructions.
 
 * Caesar Cipher Encryption Example: <br> ![Caesar Cipher Encrypt](https://github.com/maxily1/code-n-stitch/blob/master/Python/Encode_Decode_Tool/Screenshots/Screenshot_3.png?raw=true)
 
+* Base64 Decryption Example: <br> ![Base64 Decryption](https://github.com/maxily1/code-n-stitch/blob/master/Python/Encode_Decode_Tool/Screenshots/Screenshot_5.png?raw=true)
+
 ## Made By Max Iliocuhenko: [My Github](https://github.com/maxily1)
 
