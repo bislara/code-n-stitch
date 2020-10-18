@@ -326,6 +326,16 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "maxily1",
+      "name": "Max Iliouchenko",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/55281456?v=4",
+      "profile": "https://github.com/maxily1",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
