@@ -336,6 +336,16 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "im-adithya",
+      "name": "Adithya Vardhan",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/64399555?v=4",
+      "profile": "https://github.com/im-adithya",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
