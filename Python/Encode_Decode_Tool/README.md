@@ -6,10 +6,14 @@ A basic CLI Python based tool for encrypting and decrypting multiple famous algo
 * Hex
 
 ## Features:
-* Morse encode and decode
-* Base64 encode and deocde
-* Hex encode and deocde
-* Caesar Cipher Encode and Decode
+- [x] Morse encode and decode
+
+- [x] Base64 encode and deocde
+
+- [x] Hex encode and deocde
+
+- [x] Caesar Cipher Encode and decode
+- [ ] Binary Encode and decode (to be added).
 
 ## Required Dependencies:
 Install everything using the following command:
@@ -44,8 +48,13 @@ And follow the instructions.
 
 ## Screenshots:
 
-To be added next push.
+* Morse Encryption Example: ![Morse Encrypt][https://github.com/maxily1/code-n-stitch/blob/master/Python/Encode_Decode_Tool/Screenshots/Screenshot_1.png?raw=true]
 
+* Base64 Encryption Example: ![Base64 Encrypt][https://github.com/maxily1/code-n-stitch/blob/master/Python/Encode_Decode_Tool/Screenshots/Screenshot_4.png?raw=true]
+
+* Hex Encryption Example: ![Hex Encrypt][https://github.com/maxily1/code-n-stitch/blob/master/Python/Encode_Decode_Tool/Screenshots/Screenshot_2.png?raw=true]
+
+* Caesar Cipher Encryption Example: ![Caesar Cipher Encrypt][https://github.com/maxily1/code-n-stitch/blob/master/Python/Encode_Decode_Tool/Screenshots/Screenshot_3.png?raw=true]
 
 ## Made By Max Iliocuhenko: [My Github](https://github.com/maxily1)
 
