@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Countdown Timer</title>
+</head>
+
+<body>
+    <nav>
+        <h1>Countdown Timer</h1>
+    </nav>
+    <img src='https://svgshare.com/i/QeL.svg' class='clock-pic' />
+    <div id="clock">
+        <div class='nw'>
+            <span class="hours numbers">00</span>
+            <span class="words">h</span>
+        </div>
+        <div class='nw'>
+            <span class="minutes numbers">00</span>
+            <span class="words">m</span>
+        </div>
+        <div class='nw'>
+            <span class="seconds numbers">00</span>
+            <span class="words">s</span>
+        </div>
+    </div>
+    <div class="buttons">
+        <div id='reset'>Reset</div>
+        <div id='pause'>Pause</div>
+    </div>
+    <div id='deadline'>Enter Time:
+        <div class='inputs'>
+            <input type="time" id='time' step="1">
+        </div>
+    </div>
+    <div class='buttons'>
+        <div id='start'>Start</div>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
