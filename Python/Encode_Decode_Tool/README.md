@@ -5,8 +5,11 @@ A basic CLI Python based tool for encrypting and decrypting multiple famous algo
 * Caesar Cipher
 * Hex
 
-## Known Errors:
-* Caesar Cipher Decryption Brute Force isn't working properly. It's known, I am working really hard on this.
+## Features:
+* Morse encode and decode
+* Base64 encode and deocde
+* Hex encode and deocde
+* Caesar Cipher Encode and Decode
 
 ## Required Dependencies:
 * Base64, It's always better to check that you actually have that installed using: 
@@ -31,9 +34,6 @@ After you installed everything required, Run the following command:
 python enc.py
 ```
 And follow the instructions.
-
-## Some important notes:
-If you want to decrypt from Caesar Cipher, You can't enter the key, The program will just run every key until 25. It will be fixed next version.
 
 ## Made By Max Iliocuhenko: [My Github](https://github.com/maxily1)
 

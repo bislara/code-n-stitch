@@ -17,8 +17,6 @@ while option == 'base64' or option == 'morse' or option == 'hex' or option == 'c
             message_bytes=base64.b64decode(base64_bytes)
             message = message_bytes.decode('ascii')
             print("Decrypted Message: " + message)
-        else:
-            raise Exception("Invalid choice. ")
 
 
     if option == 'morse':
@@ -34,38 +32,46 @@ while option == 'base64' or option == 'morse' or option == 'hex' or option == 'c
             print(bytes.fromhex(message).decode('utf-8'))
     if option == 'caesar cipher':
         def encrypt(message):
-            s = int(input("Please enter the shift number you'd like (Exmaple: 4): "))
-            result = ""
-            # transverse the plain text
-            for i in range(len(message)):
-                char = message[i]
-                # Encrypt uppercase characters in plain text
-                
-                if (char.isupper()):
-                    result += chr((ord(char) + s-65) % 26 + 65)
-                # Encrypt lowercase characters in plain text
-                else:
-                    result += chr((ord(char) + s - 97) % 26 + 97)
-            print(result)
-        '''
+            message = message.lower()
+            newString = ''
+            validLetters = "abcdefghijklmnopqrstuvwxyz " #adding whitespace to valid chars...
+            space = []
+            for char in message:
+                if char in validLetters or char in space:
+                    newString += char
+            shift = int(input("Please enter your shift : "))
+            resulta = []
+            for ch in newString:
+                x = ord(ch)
+                x = x+shift
+                # special case for whitespace...
+                resulta.append(chr(x if 97 <= x <= 122 else 96+x%122) if ch != ' ' else ch)
+            print(''.join(resulta))
+        
         def decrypt(message):
-            LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-            for key in range(len(LETTERS)):
-                translated = ''
-                for symbol in message:
-                    if symbol in LETTERS:
-                        num = LETTERS.find(symbol)
-                        num = num - key
-                        if num < 0:
-                            num = num + len(LETTERS)
-                        translated = translated + LETTERS[num]
-                    else:
-                        translated = translated + symbol
-                print('Hacking key #%s: %s' % (key, translated))
-        '''
+            shift = int(input('Please enter its shift value: '))
+            space = []
+
+            # creat a list of encrypted words.
+            message = message.split()
+
+            # creat a list to hold decrypted words.
+            sentence = []
+
+            for word in message:
+                cipher_ords = [ord(x) for x in word]
+                plaintext_ords = [o - shift for o in cipher_ords]
+                plaintext_chars = [chr(i) for i in plaintext_ords]
+                plaintext = ''.join(plaintext_chars)
+                sentence.append(plaintext)
+
+            # join each word in the sentence list back together by a space.
+            sentence = ' '.join(sentence)
+            print('Your encrypted sentence is:', sentence)
+
         if choice == 'e':
             encrypt(message)
-        '''elif choice == 'd':
-            decrypt(message)'''
+        elif choice == 'd':
+            decrypt(message)
     break
 
