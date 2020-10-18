@@ -3,9 +3,9 @@
 
 ![](header.png)
 
-It takes a valid deadline and indicates the completion of it.
-If you wish to reset or pause, there's an option for that too!
-And if you want to start the same timer again, you wouldn't have to set it again. Simply use 'Start Over' button!
+*It takes a valid deadline and indicates the completion of it.
+*If you wish to reset or pause, there's an option for that too!
+*And if you want to start the same timer again, you wouldn't have to set it again. Simply use 'Start Over' button!
 
 ## Setup
 
