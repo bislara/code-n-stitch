@@ -48,13 +48,13 @@ And follow the instructions.
 
 ## Screenshots:
 
-* Morse Encryption Example: ![Morse Encrypt](https://github.com/maxily1/code-n-stitch/blob/master/Python/Encode_Decode_Tool/Screenshots/Screenshot_1.png?raw=true)
+* Morse Encryption Example: <br> ![Morse Encrypt](https://github.com/maxily1/code-n-stitch/blob/master/Python/Encode_Decode_Tool/Screenshots/Screenshot_1.png?raw=true)
 
-* Base64 Encryption Example: ![Base64 Encrypt](https://github.com/maxily1/code-n-stitch/blob/master/Python/Encode_Decode_Tool/Screenshots/Screenshot_4.png?raw=true)
+* Base64 Encryption Example: <br> ![Base64 Encrypt](https://github.com/maxily1/code-n-stitch/blob/master/Python/Encode_Decode_Tool/Screenshots/Screenshot_4.png?raw=true)
 
-* Hex Encryption Example: ![Hex Encrypt](https://github.com/maxily1/code-n-stitch/blob/master/Python/Encode_Decode_Tool/Screenshots/Screenshot_2.png?raw=true)
+* Hex Encryption Example: <br> ![Hex Encrypt](https://github.com/maxily1/code-n-stitch/blob/master/Python/Encode_Decode_Tool/Screenshots/Screenshot_2.png?raw=true)
 
-* Caesar Cipher Encryption Example: ![Caesar Cipher Encrypt](https://github.com/maxily1/code-n-stitch/blob/master/Python/Encode_Decode_Tool/Screenshots/Screenshot_3.png?raw=true)
+* Caesar Cipher Encryption Example: <br> ![Caesar Cipher Encrypt](https://github.com/maxily1/code-n-stitch/blob/master/Python/Encode_Decode_Tool/Screenshots/Screenshot_3.png?raw=true)
 
 ## Made By Max Iliocuhenko: [My Github](https://github.com/maxily1)
 
