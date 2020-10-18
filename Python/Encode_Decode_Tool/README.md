@@ -12,6 +12,13 @@ A basic CLI Python based tool for encrypting and decrypting multiple famous algo
 * Caesar Cipher Encode and Decode
 
 ## Required Dependencies:
+Install everything using the following command:
+```bash
+pip install -r requirements.txt
+```
+
+OR
+
 * Base64, It's always better to check that you actually have that installed using: 
 ```bash
 python -m pip install base64
@@ -34,6 +41,11 @@ After you installed everything required, Run the following command:
 python enc.py
 ```
 And follow the instructions.
+
+## Screenshots:
+
+To be added next push.
+
 
 ## Made By Max Iliocuhenko: [My Github](https://github.com/maxily1)
 
