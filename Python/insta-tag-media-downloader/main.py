@@ -51,9 +51,9 @@ if __name__ == "__main__":
         description='Get All Post From Instagram Hashtag')
     parser.add_argument('-t', '--tag', required=True, help="valid tag name")
     parser.add_argument('-p', '--path', required=False,
-                        help="Path to save images", default="medias")
-    parser.add_argument('-mi', '--max-images', required=False,
-                        help="Max posts to download", type=int, default=10)
+                        help="Path to save media", default="medias")
+    parser.add_argument('-mm', '--max-media', required=False,
+                        help="Max number of media to download", type=int, default=10)
     parser.add_argument('-mt', '--media-type', required=False,
                         help="For Photos => `image` Videos => `video` All => `all` ", default="all")
     parser.add_argument('-q', '--quality', required=False,
@@ -62,14 +62,14 @@ if __name__ == "__main__":
     arguments = parser.parse_args()
 
     # Checking
-    if arguments.media_type not in ["videos", "images", "all"]:
+    if arguments.media_type not in ["video", "image", "all"]:
         raise ValueError("Media Type should be either videos, images or all")
 
     if arguments.quality not in ["low", "high", "standard"]:
         raise ValueError("Quality should be either low, standard or high")
 
     if not os.path.exists(arguments.path):
-        print("Medias path not found! \nCreating medias path!")
+        print("Media path not found! \nCreating media path!")
         os.mkdir(arguments.path)
 
     if not os.path.exists(arguments.path + "/images"):
@@ -80,4 +80,4 @@ if __name__ == "__main__":
 
     # Running
     get_media_from_hashtag(tag=arguments.tag, media_type=arguments.media_type,
-                           quality=arguments.quality, max_images=arguments.max_images, path=arguments.path)
+                           quality=arguments.quality, max_images=arguments.max_media, path=arguments.path)
