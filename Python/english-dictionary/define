@@ -1,0 +1,48 @@
+#!/usr/bin/env python3
+"""CLI to define a word."""
+import sys
+import os
+from dotenv import load_dotenv
+from search import OnlineSearch
+
+class Define:
+    """Used to find defintion."""
+
+    @staticmethod
+    def define_raw(csv, key, word):
+        """
+        Give raw output from OnlineSearch.
+
+        Args:
+            None
+
+        Returns:
+            (list)
+
+        """
+
+        srch = OnlineSearch(csv, key)
+
+        result = srch.search(word)
+
+        return result
+
+
+if __name__ == "__main__":
+    load_dotenv() # Load environmental variables
+    key = os.getenv("WORD_API_KEY", None) # Get API key
+    csv = os.getenv("DICT_CSV", None) # Get csv file path
+
+    arg_len = len(sys.argv)
+    if arg_len < 2:
+        raise Exception("Please enter word to define")
+    elif arg_len == 2: # supply word
+        word = sys.argv[1]
+        result = Define.define_raw(csv, key, word)
+        print(result)
+    elif arg_len == 3: # supply word, csv file path
+        pass
+    elif arg_len == 4: # supply word, csv file path, API key
+        pass
+    else:
+        raise Exception("Invalid entry")

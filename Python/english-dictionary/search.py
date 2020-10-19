@@ -1,9 +1,7 @@
 """Search through csv files for definitions."""
 import csv
-import os
 import json
 import requests
-from dotenv import load_dotenv
 
 class Search:
     """Perform search in csv file."""
