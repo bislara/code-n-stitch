@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Clock design</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="clock">
+    <div class="hour">
+      <div class="hr" id="hr"></div>
+    </div>
+    <div class="min">
+      <div class="mn" id="mn">
+      </div>
+    </div>
+    <div class="sec">
+      <div class="sc" id="sc">
+      </div>
+    </div>
+  </div>
+  <div class="digital" id="digital">
+    <div id="content">
+    </div>
+  </div>
+  <script>
+    const deg = 6;
+    const hr = document.querySelector('#hr');
+    //console.log(hr);
+    const mn = document.querySelector('#mn');
+    const sc = document.querySelector('#sc');
+    const dd=document.querySelector('#content');
+    setInterval(()=>{
+      let day= new Date();
+      let hh=day.getHours() * 30;
+      let mm=day.getMinutes() * deg;
+      let ss=day.getSeconds() * deg;
+    //console.log('${(hh)+(mm/12)}');
+      hr.style.transform = 'rotate('+(hh+mm/60)+'deg)';
+      mn.style.transform = 'rotate('+mm+'deg)';
+      sc.style.transform = 'rotate('+ss+'deg)';
+      dd.innerText=day;
+    });
+    
+    
+  </script>
+  
+        
+</body>
+</html>
