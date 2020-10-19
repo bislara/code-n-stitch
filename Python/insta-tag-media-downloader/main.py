@@ -51,7 +51,7 @@ if __name__ == "__main__":
         description='Get All Post From Instagram Hashtag')
     parser.add_argument('-t', '--tag', required=True, help="valid tag name")
     parser.add_argument('-p', '--path', required=False,
-                        help="Path to save media", default="medias")
+                        help="Path to save media", default="media")
     parser.add_argument('-mm', '--max-media', required=False,
                         help="Max number of media to download", type=int, default=10)
     parser.add_argument('-mt', '--media-type', required=False,
