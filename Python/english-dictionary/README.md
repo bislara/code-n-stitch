@@ -3,7 +3,7 @@
 This is a simple CLI interface that defines English words from a csv file or from an API
 
 ## Preface
-This was created on Ubuntu 18.04 LTS. Commands may differ base on the operating system you are running.
+This was created on Ubuntu 18.04 LTS. Commands and methods may differ based on the operating system you are running.
 
 ## Instructions
 1. Navigate to the `english-dictionary` directory.
