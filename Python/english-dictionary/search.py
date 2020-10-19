@@ -1,8 +1,12 @@
-"""Search through csv files for definitions"""
+"""Search through csv files for definitions."""
 import csv
+import os
+import json
+import requests
+from dotenv import load_dotenv
 
 class Search:
-    """Perform search in csv file"""
+    """Perform search in csv file."""
 
     def __init__(self, csv_file):
         """
@@ -20,7 +24,7 @@ class Search:
 
     def traverse(self, word):
         """
-        Linear traversal of csv file
+        Linear traversal of csv file.
 
         Args:
             word (str): Word to search for in csv
@@ -44,3 +48,72 @@ class Search:
                     entries.append(en) # Add entry that matches word
         
         return entries
+
+
+class OnlineSearch(Search):
+    """Perform definition in API call."""
+
+    def __init__(self, csv_file, api_key):
+        """
+        Store csv object
+
+        Args:
+            csv_file (str): Path to dictionary csv file
+            api_key (str): API key for rapidapi.com
+
+        Return:
+            None
+  
+        """
+        Search.__init__(self, csv_file) # Instantiate super class
+        self.api_key = api_key
+
+    def online_search(self, word):
+        """
+        Do direct online search.
+
+        Args:
+            word (str): Word to search for in csv
+
+        Return:
+            definitions (list): List of online definitiions
+  
+        """
+
+        url = f"https://rapidapi.p.rapidapi.com/words/{word}/definitions"
+
+        headers = {
+            'x-rapidapi-host': "wordsapiv1.p.rapidapi.com",
+            'x-rapidapi-key': self.api_key
+        }
+
+        response = requests.request("GET", url, headers=headers)
+
+        definitions = []
+
+        if response.ok:
+            result = json.loads(response.text)
+            definitions = result['definitions']
+
+        return definitions
+
+    def search(self, word):
+        """
+        Searches csv file, if the word does not exist in the csv, search online.
+
+        Args:
+            word (str): Word to search for in csv
+
+        Return:
+            result (list):
+  
+        """
+
+        result = self.traverse(word)
+        if result == []:
+            result = self.online_search(word)
+
+        if result == []:
+            raise Exception("Word could not be found in csv or retrieved online")
+
+        return result
