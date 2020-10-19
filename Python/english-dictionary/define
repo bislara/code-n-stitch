@@ -65,7 +65,10 @@ class Define:
         output = ""
 
         for entry in result:
-            output+= f"\n\n{entry['partOfSpeech']}. {entry['definition']}"
+            if isinstance(entry, dict):
+                output+= f"\n\n{entry['partOfSpeech']}. {entry['definition']}"
+            else:
+                output+= f"\n\n{entry}"
 
         return output
 
