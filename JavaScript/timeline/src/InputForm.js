@@ -8,6 +8,7 @@ const InputForm = (props) => {
   const [start, setStart] = useState(new Date());
   const [end, setEnd] = useState(new Date());
 
+  /* Returns the input to the parent */
   const handleSubmit = (e) => {
     e.preventDefault();
     if (cat === '' || detail === '' || end <= start) return;
@@ -15,6 +16,7 @@ const InputForm = (props) => {
     clearInput();
   }
 
+  /* Resets the inputs */
   const clearInput = () => {
     setCat('');
     setDetail('');

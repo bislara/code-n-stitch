@@ -7,6 +7,7 @@ function Timeline(props) {
       <p className='text-center text-muted mt-5'>Enter An Item</p>
     );
   } else {
+    // See https://react-google-charts.com/timeline-chart for documentation
     return (
       <Chart
         width={'100%'}
