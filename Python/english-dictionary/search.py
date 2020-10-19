@@ -36,8 +36,9 @@ class Search:
         with open(dict_f, 'r') as csvfile:
             csv_reader = csv.reader(csvfile, delimiter='\n')
             for en in csv_reader:
-                parts = en[0].split('"') # Split each entry by "
-                entry_word = parts[0].lower().strip(',') # Remove , and put entry word in lowercase
+                parts = en[0].replace('"', '') # Remove "
+                parts = parts.split(',') # Split by ,
+                entry_word = parts[0].lower() # Put entry word in lowercase
                 search_word = word.lower() # Put search word in lowercase
                 if entry_word == search_word:
                     entries.append(en) # Add entry that matches word
