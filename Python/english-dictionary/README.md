@@ -1,4 +1,7 @@
 # English Dictionary
+
+This is a simple CLI interface that defines English words from a csv file or from an API
+
 ## Preface
 This was created on Ubuntu 18.04 LTS. Commands may differ base on the operating system you are running.
 
