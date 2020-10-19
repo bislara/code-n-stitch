@@ -20,7 +20,15 @@ This was created on Ubuntu 18.04 LTS. Commands may differ base on the operating 
         ```
         Then:
         `...english-dictionary$ ./define yourWord`. 
-        **Eg:** `...english-dictionary$ ./define human`
+        **Eg:** 
+        ```
+        ...english-dictionary$ ./define human
+        ```
+        ![Example showing definition result for 'human'](examples/human.png)
+        ```
+        ...english-dictionary$ ./define dog
+        ```
+        ![Example showing definition result for 'dog'](examples/dog.png)
     * *[Enter csv path in argument and only search csv]* 
         `...english-dictionary$ ./define yourWord pathToCsv` 
         **Eg:** `...english-dictionary$ ./define human ./dictionary.csv`
