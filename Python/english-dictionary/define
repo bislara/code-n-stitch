@@ -3,7 +3,7 @@
 import sys
 import os
 from dotenv import load_dotenv
-from search import OnlineSearch
+from search import OnlineSearch, Search
 
 class Define:
     """Used to find defintion."""
@@ -17,7 +17,7 @@ class Define:
             None
 
         Returns:
-            (list)
+            result: Definition of word
 
         """
 
@@ -26,6 +26,48 @@ class Define:
         result = srch.search(word)
 
         return result
+
+    @staticmethod
+    def local_pp(csv, word):
+        """
+        Output formatted results from Search.
+
+        Args:
+            None
+
+        Returns:
+            resutt (str): Definition of word
+
+        """
+
+        srch = Search(csv)
+        result = srch.traverse(word)
+        output = ""
+        for entry in result:
+            output+= f"\n\n{entry}"
+        return output
+
+    @staticmethod
+    def search_pp(csv, key, word):
+        """
+        Output formatted results from OnlineSearch.
+
+        Args:
+            None
+
+        Returns:
+            resutt (str): Definition of word
+
+        """
+        srch = OnlineSearch(csv, key)
+
+        result = srch.search(word)
+        output = ""
+
+        for entry in result:
+            output+= f"\n\n{entry['partOfSpeech']}. {entry['definition']}"
+
+        return output
 
 
 if __name__ == "__main__":
@@ -38,11 +80,18 @@ if __name__ == "__main__":
         raise Exception("Please enter word to define")
     elif arg_len == 2: # supply word
         word = sys.argv[1]
-        result = Define.define_raw(csv, key, word)
+        result = Define.search_pp(csv, key, word)
         print(result)
     elif arg_len == 3: # supply word, csv file path
-        pass
+        word = sys.argv[1]
+        csv = sys.argv[2]
+        result = Define.local_pp(csv, word)
+        print(result)
     elif arg_len == 4: # supply word, csv file path, API key
-        pass
+        word = sys.argv[1]
+        csv = sys.argv[2]
+        key = sys.argv[3]
+        result = Define.search_pp(csv, key, word)
+        print(result)
     else:
         raise Exception("Invalid entry")
