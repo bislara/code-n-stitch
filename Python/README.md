@@ -48,3 +48,4 @@
 | 47   | [Instagram Media Downloader via Tag](/Python/insta-tag-media-downloader)  | Download the top instagram medias from the given hashtag | Riken-Shah |
 | 48   | [English Dictionary](/Python/english-dictionary)  | simple CLI interface that defines English words from csv file or from API | gill876 |
 | 49   | [Insta Non Followers](/Python/Insta%20Non%20Followers)  | Check your Instagram Account who do not follow you back | Riken-Shah |
+| 50   | [Insta post via location](/Python/Insta%20Post%20By%20Location)  | Download / Get the top instagram medias from the Location | Riken-Shah |
