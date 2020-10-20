@@ -1,53 +1,29 @@
-<div class="main">
-		<div class="container">
-			<div class="app twelve columns">
-				<h1 class="headline">Weather Forecast <span class="location"></span></h1>
-				
-				<div class="row">
-					<div class="eight columns offset-by-two">
-						<div class="weather-info">
-							<div class="weather-info-animation">
-							<canvas id="animated-icon" width="220" height="220"></canvas>
-						</div>
-					</div>		
-				</div>
-				
-				<div class="row">
-					<div class="eight columns offset-by-two">
-						<div class="weather-info-text">
-							<div class="one-third column">
-								<span class="local-time">~~:~~</span>
-							</div>
-							<div class="one-third column">
-								<div class="temperature">
-									<span class="temp-celsius">°C</span>
-									<span class="temp-fahrenheit hidden">F</span>
-								</div> 
-							</div>
-							<div class="one-third column">
-								<span class="weather-condition">~~~</span>
-							</div>							
-						</div>
-					</div>
-				</div>					
-						
-				<div class="row">
-					<div class="search-weather eight columns offset-by-two">
-						<h3>Find a Forecast</h3>
-						<form id="my-form" action="">
-							<input type="search" placeholder="Search for location or keyword" class="find-forcast">
-							<button class="btn-search">Search</button>
-						</form>
-					</div>
-				</div>
-			
-				<div class="row">
-					<div class="footer">
-						<p>Designed and coded by <a href="https://ayoisaiah.github.io">Ayo Isaiah</a></p>
-					</div>
-				</div>			
-
-
-			</div>  <!-- app -->
-		</div> <!-- container -->
-	</div> <!-- main -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Weather app</title>
+  <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+  <div class="app-wrap">
+    <header>
+      <input type="text" autocomplete="off" class="search-box" placeholder="Search for a city..." />
+    </header>
+    <main>
+      <section class="location">
+        <div class="city">City Name, country</div>
+        <div class="date">Day Date Month Year</div>
+      </section>
+      <div class="current">
+        <div class="temp">T<span>°c</span></div>
+        <div class="weather">Weather condition</div>
+        <div class="hi-low">Min Temp°c / Max Temp°c</div>
+      </div>
+    </main>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
