@@ -1,6 +1,6 @@
 # Instagram Non Followers
 
-Check your Instagram Accounts who do not follow you back
+Check your Instagram Account who do not follow you back
 
 
 ## Install
