@@ -28,7 +28,7 @@ h3 {
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #FFFFFF;
-  background-image: linear-gradient(#FFFFFF 50%, #FFFFFF 50%, #F0F3FC 50%);
+  background-image: linear-gradient(#f1dce1 50%, #FFFFFF 50%, #F0F3FC 50%);
   box-shadow: 0px 12px 39px -19px rgba(0, 0, 0, 0.75);
   overflow: hidden;
 }
@@ -62,6 +62,7 @@ h3 {
   color: #5224f8;
   text-decoration: none;
 }
+
 .carousel-wrapper .carousel .carousel-cell .line {
   position: absolute;
   width: 2px;
@@ -102,4 +103,25 @@ h3 {
 }
 .section-main{
   margin-top: 25px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #131414;
+  color: #fff;
+  text-align: center;
+  padding: 3px;
+  justify-content: center;
+}
+
+.carousel-cell.is-selected:hover .overlay {
+  opacity: 1;
 }
