@@ -17,7 +17,7 @@ pip install -r requirements.txt
 
 python script.py 
 
-<img src="images/1.jpg?raw=true">
+<img src="https://raw.githubusercontent.com/gudeliauskaspam/code-n-stitch/1-download-audio-from-youtube-video/Python/Download_Audio_From_Video/images/1.png">
 
 Arguments:
 
@@ -28,7 +28,7 @@ optional arguments:
   --q Q                 		What do you want to search? Ex:"music to relax" (Default = "Youtube")
   --max-results MAX_RESULTS		Max results (Default = 50)
 
-<img src="images/path/to/2.jpg?raw=true">
+<img src="https://raw.githubusercontent.com/gudeliauskaspam/code-n-stitch/1-download-audio-from-youtube-video/Python/Download_Audio_From_Video/images/2.png">
 
 Tested in Python 3.6.9.
 All code references that were used are in the start of script.py file.
