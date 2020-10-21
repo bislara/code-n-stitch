@@ -17,7 +17,7 @@ pip install -r requirements.txt
 
 python script.py 
 
-![HowToUse](images/1.jpg?raw=true "How to use")
+images/1.jpg?raw=true
 
 Arguments:
 
@@ -28,7 +28,7 @@ optional arguments:
   --q Q                 		What do you want to search? Ex:"music to relax" (Default = "Youtube")
   --max-results MAX_RESULTS		Max results (Default = 50)
 
-![Results](images/path/to/2.jpg?raw=true "Final Results")
+images/path/to/2.jpg?raw=true "Final Results"
 
 
 Tested in Python 3.6.9.
