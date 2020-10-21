@@ -1,2 +1,0 @@
-twilio==6.45.4
-phonenumbers==8.12.10

@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+
+body{
+    font-family: 'Poppins';
+    background-color: rgb(27, 27, 27);
+}
+
+nav {
+    color: #4effbb;
+    background-color: #26224e;
+    box-shadow: 1px 1px 20px #ffffff71;
+    font-size: 17px;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.clock-pic {
+    position: absolute;
+    width:400px;
+    opacity: 0.16;
+    margin: 13.5vh 38vw;
+    z-index: -1;
+}
+
+#clock {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30vh 0 0 0
+}
+
+.nw {
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 1000;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #ffffff;
+    padding: 20px;
+    margin: 0 18vw;
+
+}
+
+#deadline {
+    padding-top: 10px;
+    text-align: center;
+    color: white
+}
+
+.inputs {
+    padding-top: 10px;
+}
+
+input{
+    font-family: 'Poppins';
+    margin: 0 5px;
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.buttons>div{
+    border: 1px solid #4effbb;
+    padding: 7px;
+    border-radius: 5px;
+    cursor: pointer
+}
+
+.blink {
+    animation: blink 0.5s linear infinite;
+}
+
+.blink>div>.numbers {
+    color:red
+}
+
+@keyframes blink{
+    0%{opacity: 0;}
+    50%{opacity: .5;}
+    100%{opacity: 1;}
+}
+
+@media (max-width:500px) {
+    .clock-pic {
+        margin: 20.8vh 15vw;
+        width: 300px;
+    }
+}

@@ -1,3 +1,0 @@
-PyPDF2==1.26.0
-pyttsx3==2.7
-pywin32

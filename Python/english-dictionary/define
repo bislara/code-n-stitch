@@ -1,0 +1,100 @@
+#!/usr/bin/env python3
+"""CLI to define a word."""
+import sys
+import os
+from dotenv import load_dotenv
+from search import OnlineSearch, Search
+
+class Define:
+    """Used to find defintion."""
+
+    @staticmethod
+    def define_raw(csv, key, word):
+        """
+        Give raw output from OnlineSearch.
+
+        Args:
+            None
+
+        Returns:
+            result: Definition of word
+
+        """
+
+        srch = OnlineSearch(csv, key)
+
+        result = srch.search(word)
+
+        return result
+
+    @staticmethod
+    def local_pp(csv, word):
+        """
+        Output formatted results from Search.
+
+        Args:
+            None
+
+        Returns:
+            resutt (str): Definition of word
+
+        """
+
+        srch = Search(csv)
+        result = srch.traverse(word)
+        output = ""
+        for entry in result:
+            output+= f"\n\n{entry}"
+        return output
+
+    @staticmethod
+    def search_pp(csv, key, word):
+        """
+        Output formatted results from OnlineSearch.
+
+        Args:
+            None
+
+        Returns:
+            resutt (str): Definition of word
+
+        """
+        srch = OnlineSearch(csv, key)
+
+        result = srch.search(word)
+        output = ""
+
+        for entry in result:
+            if isinstance(entry, dict):
+                output+= f"\n\n{entry['partOfSpeech']}. {entry['definition']}"
+            else:
+                output+= f"\n\n{entry}"
+
+        return output
+
+
+if __name__ == "__main__":
+    load_dotenv() # Load environmental variables
+    key = os.getenv("WORD_API_KEY", None) # Get API key
+    csv = os.getenv("DICT_CSV", None) # Get csv file path
+
+    arg_len = len(sys.argv)
+    if arg_len < 2:
+        raise Exception("Please enter word to define")
+    elif arg_len == 2: # supply word
+        word = sys.argv[1]
+        result = Define.search_pp(csv, key, word)
+        print(result)
+    elif arg_len == 3: # supply word, csv file path
+        word = sys.argv[1]
+        csv = sys.argv[2]
+        result = Define.local_pp(csv, word)
+        print(result)
+    elif arg_len == 4: # supply word, csv file path, API key
+        word = sys.argv[1]
+        csv = sys.argv[2]
+        key = sys.argv[3]
+        result = Define.search_pp(csv, key, word)
+        print(result)
+    else:
+        raise Exception("Invalid entry")
