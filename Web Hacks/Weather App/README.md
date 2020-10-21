@@ -7,6 +7,10 @@ This is a weather app which takes city name as input.
 
 ## Setup
 Simply fork this and open index.html file to view it in your browser
+
+## Getting the API key
+To get your API key, make an account on https://openweathermap.org/ and then you will get your API key by clicking on 'My API Keys'. 
+
 ## Contributing
 If you wish to contribute to this project
 
