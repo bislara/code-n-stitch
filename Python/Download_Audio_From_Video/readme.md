@@ -21,14 +21,14 @@ python script.py
 <img src="https://raw.githubusercontent.com/gudeliauskaspam/code-n-stitch/1-download-audio-from-youtube-video/Python/Download_Audio_From_Video/images/1.png">
 
 Arguments:
-
+```bash
 usage: script.py [-h] [--q Q] [--max-results MAX_RESULTS]
 
 optional arguments:
   -h, --help            		show this help message and exit
   --q Q                 		What do you want to search? Ex:"music to relax" (Default = "Youtube")
   --max-results MAX_RESULTS		Max results (Default = 50)
-
+```
 <img src="https://raw.githubusercontent.com/gudeliauskaspam/code-n-stitch/1-download-audio-from-youtube-video/Python/Download_Audio_From_Video/images/2.png">
 
 Tested in Python 3.6.9.
