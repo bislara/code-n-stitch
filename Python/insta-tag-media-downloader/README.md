@@ -1,6 +1,6 @@
 # Instagram Media Downloader via Tag
 
-Download the top instagram medias from the hashtag
+Get and Download the top instagram post by hashtag
 
 
 ## Install
