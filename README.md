@@ -1,6 +1,6 @@
 # CODE and STITCH 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-42-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-43-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
@@ -119,6 +119,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/prinsusinghal"><img src="https://avatars0.githubusercontent.com/u/60322217?v=4" width="100px;" alt=""/><br /><sub><b>Prateek Agarwal</b></sub></a><br /><a href="https://github.com/bislara/code-n-stitch/commits?author=prinsusinghal" title="Code">💻</a> <a href="https://github.com/bislara/code-n-stitch/commits?author=prinsusinghal" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/nishan7"><img src="https://avatars3.githubusercontent.com/u/17123315?v=4" width="100px;" alt=""/><br /><sub><b>Nishan Paudel</b></sub></a><br /><a href="https://github.com/bislara/code-n-stitch/commits?author=nishan7" title="Code">💻</a> <a href="https://github.com/bislara/code-n-stitch/commits?author=nishan7" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/gudeliauskaspam"><img src="https://avatars1.githubusercontent.com/u/47401012?v=4" width="100px;" alt=""/><br /><sub><b>Pâmela G.</b></sub></a><br /><a href="https://github.com/bislara/code-n-stitch/commits?author=gudeliauskaspam" title="Code">💻</a> <a href="https://github.com/bislara/code-n-stitch/commits?author=gudeliauskaspam" title="Documentation">📖</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="http://m4dummies@gmail.com"><img src="https://avatars1.githubusercontent.com/u/67146120?v=4" width="100px;" alt=""/><br /><sub><b>Neel Patel</b></sub></a><br /><a href="https://github.com/bislara/code-n-stitch/commits?author=m4dummies" title="Code">💻</a> <a href="https://github.com/bislara/code-n-stitch/commits?author=m4dummies" title="Documentation">📖</a></td>
   </tr>
 </table>
 
