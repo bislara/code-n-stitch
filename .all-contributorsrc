@@ -426,6 +426,16 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "m4dummies",
+      "name": "Neel Patel",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/67146120?v=4",
+      "profile": "http://m4dummies@gmail.com",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
