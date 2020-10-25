@@ -431,14 +431,14 @@
       "login": "m4dummies",
       "name": "Neel Patel",
       "avatar_url": "https://avatars1.githubusercontent.com/u/67146120?v=4",
-      "profile": "http://m4dummies@gmail.com",
+      "profile": "https://github.com/m4dummies",
       "contributions": [
         "code",
         "doc"
       ]
     }
   ],
-  "contributorsPerLine": 7,
+  "contributorsPerLine": 10,
   "projectName": "code-n-stitch",
   "projectOwner": "bislara",
   "repoType": "github",
