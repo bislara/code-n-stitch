@@ -45,10 +45,11 @@
 | 44   | [Covid 19 Gif Generator](/Python/covid_19)        | Python Script to make a gif showing how the countries were affected by Covif 19      | bunnysworld |
 | 45   | [Image to ASCII converter](/Python/Image%20to%20ASCII%20converter)        | Python Script to convert an image into its ascii version      | volt9801 |
 | 46   | [Encrypt-Decrypt Tool](/Python/Encode_Decode_Tool)        | A basic CLI Python based tool for encrypting and decrypting multiple famous algorithms and cipher  | maxily1 | 
-| 47   | [Instagram Media Downloader via Tag](/Python/insta-tag-media-downloader)  | Download the top instagram medias from the given hashtag | Riken-Shah |
+| 47   | [Instagram Media Downloader via Tag](/Python/Scrap%20Insta%20Post%20via%20Hashtag)  | Get and Download the top instagram medias from the given hashtag | Riken-Shah |
 | 48   | [English Dictionary](/Python/english-dictionary)  | simple CLI interface that defines English words from csv file or from API | gill876 |
 | 49   | [Insta Non Followers](/Python/Insta%20Non%20Followers)  | Check your Instagram Account who do not follow you back | Riken-Shah |
 | 50   | [Insta post via location](/Python/Insta%20Post%20By%20Location)  | Download / Get the top instagram medias from the Location | Riken-Shah |
 | 51   | [Related Hashtags](/Python/Related%20Hashtags)  | Get popular hashtags from a particular topic | Riken-Shah |
 | 52   | [Download Audio from Youtube](/Python/Download_Audio_From_Video)  | Download audio file from youtube | gudeliauskaspam |
+| 53   | [Reddit Scraper](/Python/Reddit_Scraper)  | scrape the subreddits for some or all the post | nishan7 |
 
