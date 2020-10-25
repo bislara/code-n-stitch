@@ -1,6 +1,6 @@
 # Instagram Media Downloader via Tag
 
-Download the top instagram medias from the hashtag
+Get and Download the top instagram post by hashtag
 
 
 ## Install
@@ -31,6 +31,7 @@ Command | Function
 --max-media | Max number of media to download
 --media-type | Preferred Media Type (`image` or `video` or `all`)
 --quality | Media Quality Use either of `low`, `standard` or `high`
+--download | `y` if you want download the post else `n`
 
 
 
