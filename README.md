@@ -121,7 +121,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/gudeliauskaspam"><img src="https://avatars1.githubusercontent.com/u/47401012?v=4" width="100px;" alt=""/><br /><sub><b>Pâmela G.</b></sub></a><br /><a href="https://github.com/bislara/code-n-stitch/commits?author=gudeliauskaspam" title="Code">💻</a> <a href="https://github.com/bislara/code-n-stitch/commits?author=gudeliauskaspam" title="Documentation">📖</a></td>
   </tr>
   <tr>
-    <td align="center"><a href="http://m4dummies@gmail.com"><img src="https://avatars1.githubusercontent.com/u/67146120?v=4" width="100px;" alt=""/><br /><sub><b>Neel Patel</b></sub></a><br /><a href="https://github.com/bislara/code-n-stitch/commits?author=m4dummies" title="Code">💻</a> <a href="https://github.com/bislara/code-n-stitch/commits?author=m4dummies" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/m4dummies"><img src="https://avatars1.githubusercontent.com/u/67146120?v=4" width="100px;" alt=""/><br /><sub><b>Neel Patel</b></sub></a><br /><a href="https://github.com/bislara/code-n-stitch/commits?author=m4dummies" title="Code">💻</a> <a href="https://github.com/bislara/code-n-stitch/commits?author=m4dummies" title="Documentation">📖</a></td>
   </tr>
 </table>
 
