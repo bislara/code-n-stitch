@@ -20,3 +20,8 @@ Just run the Python file.
 python pinging.py
 ```
 Use a batch file to easily run this easily without the hassle of terminals and IDEs. A batch file has already been added as an example.
+
+
+### Screenshot of the script running.
+
+![pinging.py](https://github.com/arnav-deep/code-n-stitch/edit/pinging-websites/Python/pinging-websites/screenshot.PNG)
