@@ -436,6 +436,16 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "arnav-deep",
+      "name": "Arnav Deep",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/38394702?v=4",
+      "profile": "https://arnav-deep.github.io/",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 10,
