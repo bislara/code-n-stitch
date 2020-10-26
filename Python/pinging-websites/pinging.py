@@ -159,15 +159,15 @@ def checkservers():
 
 
 # List of all emails in the form of string. Details in line 18.
-# Example: mail_list = ['abc@xyz.c', 'ab123@bh.ko.jp']
-mail_list = ['abc@gmail.com']
+# Example: mail_list = ['abc@xyz.c', 'ab123@bh.ko.jp'].
+mail_list = []
 
 # List of pairs of servers and ports. A List of lists. Details in line 20.
 # Adding port is not necessary. It is just a feature for local servers.
 # server musr be in the form of string and port(optional) is an integer.
 # Adding "https://" is not required.
-# Example: ls_servers = [['google.com'], ['facebook.com'], ['192.163.89.23', 8001]]
-ls_servers = [['google.com']]
+# Example: ls_servers = [['google.com'], ['facebook.com'], ['192.163.89.23', 8001]].
+ls_servers = [[]]
 
 if __name__ == "__main__":
     while True:
