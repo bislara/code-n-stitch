@@ -5,4 +5,4 @@
 | 3   	| [Card Slider](/Web%20Hacks/card-slider) 	| Simple Card Slider built using simple HTML and CSS 	| ritviksharma3 	|
 | 4   	| [Event Timeline](/Web%20Hacks/timeline) 	| Made a Event Timeline using react 	| senguyen1011 	|
 | 5   	| [Weather App](/Web%20Hacks/Weather%20App) 	| weather app which takes city name as input 	| prinsusinghal 	|
-
+| 6   	| [JS-Animations](/Web%20Hacks/Animations/m4Dummies-Animations)	| Javascript file that add animations to your website/webpage 	| Neel Patel 	|
