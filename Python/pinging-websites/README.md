@@ -22,6 +22,8 @@ python pinging.py
 Use a batch file to easily run this easily without the hassle of terminals and IDEs. A batch file has already been added as an example.
 
 
-### Screenshot of the script running.
+### Screenshot of the script running
 
-![pinging.py](https://github.com/arnav-deep/code-n-stitch/edit/pinging-websites/Python/pinging-websites/screenshot.PNG)
+![pinging.py](https://github.com/arnav-deep/code-n-stitch/blob/pinging-websites/Python/pinging-websites/screenshot.PNG)
+
+Here, the script is pinging [google.com](https://google.com) every 3 seconds. The frequency, the servers/websites and the rest of the parameters can be updated in the script if you follow the inline comments of the code.
