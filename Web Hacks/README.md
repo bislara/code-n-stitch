@@ -6,3 +6,4 @@
 | 4   	| [Event Timeline](/Web%20Hacks/timeline) 	| Made a Event Timeline using react 	| senguyen1011 	|
 | 5   	| [Weather App](/Web%20Hacks/Weather%20App) 	| weather app which takes city name as input 	| prinsusinghal 	|
 | 6   	| [JS-Animations](/Web%20Hacks/Animations/m4Dummies-Animations)	| Javascript file that add animations to your website/webpage 	| Neel Patel 	|
+| 7   	| [Preloader](/Web%20Hacks/Preloader)	| Made a awesome and creative css preloader 	| Jatin Rathee 	|
