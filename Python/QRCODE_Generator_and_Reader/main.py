@@ -19,10 +19,10 @@ def generate(): # Called to generate a qrcode
     Inputbox.delete("1.0","end")
 
 def browse(): # Called to read qrcode from file
-    Outputbox.delete("1.0","end")
     path = filedialog.askopenfilename(title="Open file", filetypes = (("Image files", "*.*"),))
     barcodes = decode(Image.open(path))
     try:
+        Outputbox.delete("1.0","end")
         Outputbox.insert("1.0", barcodes[0].data.decode())
     except:
         pass
@@ -34,9 +34,10 @@ def webcam(): # Called to read qrcode from webcam
     while not barcodes:
         frame = vs.read()
         frame = imutils.resize(frame, width=400)
-
         barcodes = decode(frame)
+    
     vs.stop()
+    Outputbox.delete("1.0","end")
     Outputbox.insert("1.0", barcodes[0].data.decode())
 
 
