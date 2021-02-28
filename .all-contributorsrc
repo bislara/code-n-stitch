@@ -456,6 +456,16 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "luccas13",
+      "name": "Lucas Bracco",
+      "avatar_url": "https://avatars.githubusercontent.com/u/79430960?v=4",
+      "profile": "https://github.com/luccas13",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 10,
