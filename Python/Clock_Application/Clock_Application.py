@@ -6,7 +6,7 @@ import datetime
 class WinClock(QMainWindow):
     def __init__(self):
         super().__init__()
-        uic.loadUi("D:\Test_Code\python\Clock_Application\clock_win.ui", self)
+        uic.loadUi("Python/Clock_Application/clock_win.ui", self)
         #current time
         self._time = QtCore.QTimer(self)
         self._time.timeout.connect(self.Start_Time)
