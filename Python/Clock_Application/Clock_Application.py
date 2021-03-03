@@ -46,7 +46,7 @@ class WinClock(QMainWindow):
     def ShowHide(self):
         source = self.sender()
 
-        #Enable-Disable Time
+        #Show-Hide Time
         if source.text() == "Time":
             self.time_btn.setEnabled(False)
             self._time.start(100)
