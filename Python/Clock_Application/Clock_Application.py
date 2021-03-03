@@ -1,4 +1,4 @@
-from PyQt5.QtWidgets import QMainWindow, QApplication, QPushButton
+from PyQt5.QtWidgets import QMainWindow, QApplication
 from PyQt5 import uic
 from PyQt5 import QtCore
 import datetime
@@ -36,7 +36,6 @@ class WinClock(QMainWindow):
         self.Increment = 0
         self.Decrement = 0
         #------------------------------
-        #self.time_btn.setEnabled(False)
         self.Sw_number.display("0:00:00")
         self.Sw_Stop_btn.setEnabled(False)
         self.Timer_number.display("0:00:00")
