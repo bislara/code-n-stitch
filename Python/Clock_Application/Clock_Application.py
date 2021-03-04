@@ -17,9 +17,13 @@ class WinClock(QMainWindow):
         self._Timer = QtCore.QTimer(self)
         self._Timer.timeout.connect(self.Start_Timer)
         #main buttons
-        self.time_btn.clicked.connect(self.ShowTime)#current time
-        self.Sw_btn.clicked.connect(self.ShowSw)#stopwatcher
-        self.timer_btn.clicked.connect(self.ShowTimer)#timer
+        self.time_btn.clicked.connect(self.ShowHide)#current time
+        self.time_btn.setCheckable(True)
+        self.time_btn.click()
+        self.Sw_btn.clicked.connect(self.ShowHide)#stopwatcher
+        self.Sw_btn.setCheckable(True)
+        self.timer_btn.clicked.connect(self.ShowHide)#timer
+        self.timer_btn.setCheckable(True)
         #secondary stopwatch buttons
         self.Sw_Start_btn.clicked.connect(self.Start_Sw)
         self.Sw_Stop_btn.clicked.connect(self.Stop_Sw)
@@ -32,68 +36,52 @@ class WinClock(QMainWindow):
         self.Increment = 0
         self.Decrement = 0
         #------------------------------
-        self.time_btn.setEnabled(False)
         self.Sw_number.display("0:00:00")
         self.Sw_Stop_btn.setEnabled(False)
         self.Timer_number.display("0:00:00")
         self.Timer_Stop_btn.setEnabled(False)
 
-        self.ShowTime()
+    #function to show or hide elements
+    def ShowHide(self):
+        source = self.sender()
 
-    #function that enables current time
-    def ShowTime(self):
-        #enabled and disabled
-        self.time_btn.setEnabled(False)
-        self.Sw_btn.setEnabled(True)
-        self.timer_btn.setEnabled(True)
-        self._time.start(100)
-        #hide and show
-        self.Sw_Start_btn.hide()
-        self.Sw_Stop_btn.hide()
-        self.Sw_number.hide()
-        self.Timer_number.hide()
-        self.Timer_Start_btn.hide()
-        self.Timer_Stop_btn.hide()
-        self.Plus_btn.hide()
-        self.Min_btn.hide()
-        self.Time_number.show()
+        #Show-Hide Time
+        if source.text() == "Time":
+            self.time_btn.setEnabled(False)
+            self._time.start(100)
+            self.Time_number.show()
+        else:
+            self.time_btn.setEnabled(True)
+            self.Time_number.hide()
 
-    #function that enables stopwatch
-    def ShowSw(self):
-        #enabled and disabled
-        self.Sw_btn.setEnabled(False)
-        self.time_btn.setEnabled(True)
-        self.timer_btn.setEnabled(True)
-        self.Sw_Timer = True
-        #hide and show
-        self.Time_number.hide()
-        self.Timer_number.hide()
-        self.Timer_Start_btn.hide()
-        self.Timer_Stop_btn.hide()
-        self.Plus_btn.hide()
-        self.Min_btn.hide()
-        self.Sw_Start_btn.show()
-        self.Sw_Stop_btn.show()
-        self.Sw_number.show()
+        #Show-Hide Stopwatch
+        if source.text() == "Stopwatch":
+            self.Sw_btn.setEnabled(False)
+            self.Sw_number.show()
+            self.Sw_Start_btn.show()
+            self.Sw_Stop_btn.show()
+        else:
+            self.Sw_btn.setEnabled(True)
+            self.Sw_number.hide()
+            self.Sw_Start_btn.hide()
+            self.Sw_Stop_btn.hide()
 
-    #function that enables the timer
-    def ShowTimer(self):
-        #enabled and disabled
-        self.timer_btn.setEnabled(False)
-        self.time_btn.setEnabled(True)
-        self.Sw_btn.setEnabled(True)
-        self.Sw_Timer = False
-        #hide and show
-        self.Time_number.hide()
-        self.Sw_number.hide()
-        self.Sw_Start_btn.hide()
-        self.Sw_Stop_btn.hide()
-        self.Timer_Start_btn.show()
-        self.Timer_Stop_btn.show()
-        self.Timer_number.show()
-        self.Plus_btn.show()
-        self.Min_btn.show()
-    
+        #Show-Hide Timer
+        if source.text() == "Timer":
+            self.timer_btn.setEnabled(False)
+            self.Timer_number.show()
+            self.Timer_Start_btn.show()
+            self.Timer_Stop_btn.show()
+            self.Plus_btn.show()
+            self.Min_btn.show()
+        else:
+            self.timer_btn.setEnabled(True)
+            self.Timer_number.hide()
+            self.Timer_Start_btn.hide()
+            self.Timer_Stop_btn.hide()
+            self.Plus_btn.hide()
+            self.Min_btn.hide()
+
     #function to calculate current time
     def Start_Time(self):
         currentTime = QtCore.QTime.currentTime()
@@ -129,6 +117,7 @@ class WinClock(QMainWindow):
             self.Timer_Stop_btn.setText("Stop")
             self._Timer.stop()
             self.Timer_number.display("0:00:00")
+
         else:
             self.Plus_btn.setEnabled(False)
             self.Min_btn.setEnabled(False)
@@ -168,8 +157,6 @@ class WinClock(QMainWindow):
             self.Decrement -=300
             TimerText = datetime.timedelta(seconds=self.Decrement)
             self.Timer_number.display(str(TimerText))
-
-
         
 app = QApplication([])
 
