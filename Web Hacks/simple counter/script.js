@@ -8,9 +8,10 @@ incr.addEventListener("click", () => {
     counter.innerHTML = count;
 })
 decr.addEventListener("click", () => {
-    if(count<=0){
-        count--;
-    }
+    if(count<=0){ 
+        count=0;
+    } 
+    else count--;
     
     counter.innerHTML = count;
 })
