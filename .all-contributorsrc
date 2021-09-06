@@ -466,6 +466,16 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "dth99",
+      "name": "Deepak kumar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59889069?v=4",
+      "profile": "https://github.com/dth99",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 10,
