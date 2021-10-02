@@ -1,6 +1,6 @@
 # CODE and STITCH 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-47-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-48-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
@@ -122,6 +122,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/jatin-rathee"><img src="https://avatars0.githubusercontent.com/u/44899844?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jatin Rathee</b></sub></a><br /><a href="https://github.com/bislara/code-n-stitch/commits?author=jatin-rathee" title="Code">💻</a> <a href="https://github.com/bislara/code-n-stitch/commits?author=jatin-rathee" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/luccas13"><img src="https://avatars.githubusercontent.com/u/79430960?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Lucas Bracco</b></sub></a><br /><a href="https://github.com/bislara/code-n-stitch/commits?author=luccas13" title="Code">💻</a> <a href="https://github.com/bislara/code-n-stitch/commits?author=luccas13" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/dth99"><img src="https://avatars.githubusercontent.com/u/59889069?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Deepak kumar</b></sub></a><br /><a href="https://github.com/bislara/code-n-stitch/commits?author=dth99" title="Code">💻</a> <a href="https://github.com/bislara/code-n-stitch/commits?author=dth99" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/UbadahJ"><img src="https://avatars.githubusercontent.com/u/26687928?v=4?s=100" width="100px;" alt=""/><br /><sub><b>LordChadiwala</b></sub></a><br /><a href="https://github.com/bislara/code-n-stitch/commits?author=UbadahJ" title="Code">💻</a> <a href="https://github.com/bislara/code-n-stitch/commits?author=UbadahJ" title="Documentation">📖</a></td>
   </tr>
 </table>
 
