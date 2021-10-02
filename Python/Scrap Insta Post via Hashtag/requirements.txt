@@ -1,0 +1,8 @@
+certifi==2020.6.20
+chardet==3.0.4
+idna==2.10
+igramscraper==0.3.5
+python-slugify==3.0.2
+requests==2.24.0
+text-unidecode==1.2
+urllib3==1.25.10

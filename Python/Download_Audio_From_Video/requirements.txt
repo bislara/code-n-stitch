@@ -1,0 +1,6 @@
+simple-term-menu==0.10.3
+pafy==0.5.5
+google-api-python-client==1.12.3
+youtube-dl==2020.9.20
+colorama==0.4.4
+termcolor==1.1.0

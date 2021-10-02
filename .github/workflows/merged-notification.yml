@@ -1,0 +1,21 @@
+on:
+  pull_request_target:
+    types: ['closed']
+
+jobs:
+  comment:
+    if: github.event.repository.private == false && github.event.pull_request.merged && github.event.pull_request.base.ref == github.event.repository.default_branch
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v3
+        with:
+          script: |
+            github.issues.createComment({
+              ...context.repo,
+              issue_number: context.payload.pull_request.number,
+              body: `Thanks very much for contributing! Your pull request has been merged 🎉 Hoping for more contribution from you in future. 
+              Do give a ⭐ if you like this project
+              
+              Happy hacking and Learning ✌🤟
+              Thanks again! :sparkles:`
+            })
