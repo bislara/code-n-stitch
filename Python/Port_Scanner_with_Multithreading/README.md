@@ -1,5 +1,5 @@
 # Port Scanner with Multithreading
-Python script that scans a host IP for open ports significantly fast, using multithreading
+Python script that scans a given host IP address for open ports. Time required for the process is accelerated significantly using multithreading.
 
 ## Prerequisites
 All libraries used in the script are a part of 'python standard library', no additional installs required.
