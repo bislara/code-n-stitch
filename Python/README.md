@@ -55,5 +55,6 @@
 | 54   | [Website-cloner](/Python/website-cloner)  | Downloads all the files used in the website. | Neel Patel |
 | 55   | [Pinging Websites](/Python/pinging-websites)  | Ping a website or your own personal server and get instant emails whenever the server is down. | arnav-deep |
 | 56   | [PDF Encryptor](/Python/pdf_encryptor)  | Takes a non-password protected pdf file and encrypt it, requiring a password to unlock | LordChadiwala |
-| 57   | [Image Encode Decode](/Python/image-encoode-decode)  | Coverts image into a bytestream and encodes it, can only be decoded again with its key | namanshah01 |
+| 57   | [Image Encode Decode](/Python/image-encode-decode)  | Coverts image into a bytestream and encodes it, can only be decoded again with its key | namanshah01 |
+| 58   | [Delete Empty Folders](/Python/delete_empty_folders)  | Script that deletes all empty sub folders in a given directory | namanshah01 |
 
