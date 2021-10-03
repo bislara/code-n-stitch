@@ -3,8 +3,10 @@ This script asks the user for the url of a medium article, scrapes it's text and
 <br>(There are 3 text files in the folder scraped_articles as an example of how the article is scraped)
 
 ## Prerequisites
-`pip` install the modules given in requirements.txt
-<br>Have a working network connection on the device
+Have a working network connection on the device, and install the requirements
+```bash
+pip3 install -r requirements.txt
+```
 
 ## How to run the script
 ![script execution](script_execution.png)
