@@ -57,4 +57,5 @@
 | 56   | [PDF Encryptor](/Python/pdf_encryptor)  | Takes a non-password protected pdf file and encrypt it, requiring a password to unlock | LordChadiwala |
 | 57   | [Image Encode Decode](/Python/image-encode-decode)  | Coverts image into a bytestream and encodes it, can only be decoded again with its key | namanshah01 |
 | 58   | [Delete Empty Folders](/Python/delete_empty_folders)  | Script that deletes all empty sub folders in a given directory | namanshah01 |
-| 59   | [Medium Articles to Text](/Python/Medium_Articles_to_Text)  | scrapes medium article's text and saves intt a text file | namanshah01 |
+| 59   | [Medium Articles to Text](/Python/Medium_Articles_to_Text)  | scrapes medium article's text and saves into a text file | namanshah01 |
+| 60   | [Port Scanner with Multithreading](/Python/Port_Scanner_with_Multithreading)  | Python script that scans a host IP for open ports significantly fast using multithreading | namanshah01 |
