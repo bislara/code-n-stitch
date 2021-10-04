@@ -486,6 +486,16 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "shadyskies",
+      "name": "Naman Mehta",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47866547?v=4",
+      "profile": "https://github.com/shadyskies",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 10,
