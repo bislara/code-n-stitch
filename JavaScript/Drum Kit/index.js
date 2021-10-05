@@ -4,35 +4,14 @@ document.addEventListener("keydown",function(even){
 
 });
 
-
-// document.addEventListener("keydown",function()
-// {
-//   alert("keyy");
-// });
 for( var i=0;i<=(document.querySelectorAll(".drum").length);i++){
 document.querySelectorAll("button")[i].addEventListener("click",function()
 {
-// var changeColor=this.style.color="white";
-//   // console.log(changeColor);
-//   var audio=new Audio("sounds/kick-bass.mp3");
-//   audio.play();
-
 makeSound(this.innerHTML);
 keyPressed(this.innerHTML);
 }
 );
 };
-
-
-
-
-
-//
-//
-// // function keyIs()
-// // {
-// //   alert("hello");
-// // }
 
 function makeSound(key)
 {
@@ -76,27 +55,13 @@ function makeSound(key)
     default:
 
   }
-  //
+  
 }
 function keyPressed(currentKey)
 {
-
   var animate=document.querySelector("."+currentKey);
   animate.classList.add("pressed");
-
-
-
-
   setTimeout(function()
   { animate.classList.remove("pressed"); },
    500);
-
-
-
-
-
-
-
-
-
 }
