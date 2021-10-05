@@ -506,6 +506,16 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "devesh-2002",
+      "name": "Devesh Rahatekar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/79015420?v=4",
+      "profile": "https://github.com/devesh-2002",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 10,
