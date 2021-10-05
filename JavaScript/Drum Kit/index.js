@@ -1,7 +1,6 @@
 document.addEventListener("keydown",function(even){
   makeSound(even.key);
   keyPressed(even.key);
-
 });
 
 for( var i=0;i<=(document.querySelectorAll(".drum").length);i++){
