@@ -28,20 +28,25 @@ def summarize_text(raw_text:str,sentence_count:int) -> str:
 
     stop_words = set(stopwords.words("english"))
     word_frequencies = {}  
+    # Tokenize the text into sentences.
     for word in word_tokenize(raw_text):  
+        # Remove all the stopwords from the text.
 	    if word not in stop_words:
+            # Add the word to the word frequencies.
 	        if word not in word_frequencies.keys():
 	            word_frequencies[word] = 1
 	        else:
 	            word_frequencies[word] += 1
-
+    
     maximum_frequncy = max(word_frequencies.values())
 
+    # Calculate a weighted count for each word.
     for word in word_frequencies.keys():  
 	    word_frequencies[word] = (word_frequencies[word]/maximum_frequncy)
 
     sentence_list = sent_tokenize(raw_text)
     sent_scores = {}  
+    # Find the score for each sentence.
     for sentence in sentence_list:  
 	    for w in word_tokenize(sentence.lower()):
 	        if w in word_frequencies.keys():
@@ -52,7 +57,7 @@ def summarize_text(raw_text:str,sentence_count:int) -> str:
 	                    sent_scores[sentence] += word_frequencies[word]
 
 
-
+    # Find the top n sentences with the highest scores.
     summary_sentences = heapq.nlargest(sentence_count, sent_scores, key=sent_scores.get)
 
     summary = ' '.join(summary_sentences)  
