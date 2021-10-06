@@ -516,6 +516,16 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "kinshukdua",
+      "name": "Kinshuk Dua",
+      "avatar_url": "https://avatars.githubusercontent.com/u/57797818?v=4",
+      "profile": "https://github.com/kinshukdua",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 10,
