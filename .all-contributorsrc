@@ -486,6 +486,56 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "shadyskies",
+      "name": "Naman Mehta",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47866547?v=4",
+      "profile": "https://github.com/shadyskies",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "hemil26",
+      "name": "Hemil Mehta",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65175862?v=4",
+      "profile": "https://github.com/hemil26",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "devesh-2002",
+      "name": "Devesh Rahatekar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/79015420?v=4",
+      "profile": "https://github.com/devesh-2002",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "kinshukdua",
+      "name": "Kinshuk Dua",
+      "avatar_url": "https://avatars.githubusercontent.com/u/57797818?v=4",
+      "profile": "https://github.com/kinshukdua",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "itsneelpatel",
+      "name": "Neel Patel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67146120?v=4",
+      "profile": "https://github.com/itsneelpatel",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 10,
