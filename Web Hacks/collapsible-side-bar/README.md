@@ -33,5 +33,8 @@ Run server:
 cd collapsible-side-bar
 npm start
 
+### Example:
+![GIF](sidebar-collapsible.gif)
+
 
 ### Enjoy 🙂
