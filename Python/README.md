@@ -61,3 +61,4 @@
 | 60   | [Port Scanner with Multithreading](/Python/Port_Scanner_with_Multithreading)  | Python script that scans a host IP for open ports significantly fast using multithreading | namanshah01 |
 | 61   | [Angry Bird Game](/Python/angry-birds-python)  | Created a Angry Birds Game using pygame | hemil26 |
 | 62   | [Text Summarizer](/Python/Text_Summarize)  | Input text in a GUI and get its summary as an output using NLP | kinshukdua |
+| 63   | [Folder Sorter](/Python/Folder%20Sorter) | Organize files in your directory | shadyskies
