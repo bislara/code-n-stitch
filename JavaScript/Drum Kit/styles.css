@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+body {
+  text-align: center;
+  background-color: #283149;
+  /* background-image: url("https://cdn.imgbin.com/16/12/15/imgbin-audience-crowd-others-silhouette-of-people-raising-hands-05USihFn98TVvNLhbiVRCxmFX.jpg"); */
+  
+  background-color: #000000;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23220000' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23440000' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23660000' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23880000' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23A00' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+font-family: 'Roboto', sans-serif;
+  
+}
+
+h1 {
+  font-size: 5rem;
+  color:yellow;
+  font-family: 'Roboto', sans-serif;  /* text-shadow: 3px 0 #DA0463; */
+
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
+
+.w {
+background-image: url("images/tom1.png");
+}
+
+.a {
+  /* background-image: url("images/tom2.png"); */
+  background-image: url("images/tom4.png");
+
+
+}
+
+.s {
+    background-image: url("images/snare.png");
+
+
+}
+
+.d {
+  background-image: url("images/kick.png");
+
+
+}
+
+.j {
+  background-image: url("images/crash.png");
+
+}
+
+.k {
+  background-image: url("images/tom4.png");
+
+}
+
+.l {
+  background-image: url("images/tom2.png");
+
+
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid yellow;
+  font-size: 5rem;
+  font-family: 'Roboto', sans-serif;
+  line-height: 2;
+  font-weight: 900;
+  /* color: #DA0463; */
+  color:black;
+
+  /* text-shadow: 3px 0 #DBEDF3; */
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
