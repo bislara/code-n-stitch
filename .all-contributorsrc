@@ -546,6 +546,16 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "SarveshLimaye",
+      "name": "Sarvesh Limaye",
+      "avatar_url": "https://avatars.githubusercontent.com/u/74766567?v=4",
+      "profile": "https://github.com/SarveshLimaye",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 10,
