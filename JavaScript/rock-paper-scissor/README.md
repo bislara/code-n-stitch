@@ -3,7 +3,7 @@
  
 ![image](https://user-images.githubusercontent.com/74766567/136348691-ecc0221e-6696-484c-a1db-ded5fd420feb.png)
 
-Site Demo -
+Live Site Demo -
 
 ![recording](https://user-images.githubusercontent.com/74766567/136528822-6d2b6ef9-3115-46b8-b5a2-d7363a47884e.gif)
 
