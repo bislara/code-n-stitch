@@ -3,6 +3,7 @@
 This Python script converts CSV (.csv) files to Excel (.xlsx) file.
 
 The only requirement for this file to work is the `pandas` library.
+
 It can be installed using the command:
 `pip install pandas`
 
