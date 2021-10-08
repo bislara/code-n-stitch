@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+}
+
+body{
+   background-color: #F6F6F6;
+}
+
+h1{
+  color: #3D2C8D;
+}
+
+h3{
+  color: #C996CC;
+}
+
+.choose{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+  width: 65%;
+  margin-left: 14rem;
+  
+}
+
+button{
+  font-family: 'Dancing Script', cursive;
+}
+
+.minions{
+  margin-top: 2rem;
+  width: 40%;
+ 
+}
+
+h3{
+  
+font-family: 'Dancing Script', cursive;
+}
+
+.result{
+ 
+  margin-left: 35rem;
+  display: flexbox;
+  margin-top: 2rem;
+}
+
+h1{
+  font-family: 'Italianno', cursive;
+}
+
+
+
+
+
+.scissor{
+  width: 15%;
+}
+
+.comp{
+  margin-left: 5rem;
+  margin-top: 1rem;
+  width: 77%;
+  text-align: center;
+
+}
+
+.user-img{
+  width: 60%;
+  margin-top: 20px;
+}
+
+.comp-img{
+  width:75%;
+  margin-top: 7rem;
+}
+
+p{
+  font-size: x-large;
+  color: #3D2C8D;
+  margin-top: 0%;
+  
+}
+
+.user{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 7rem;
+  
+}
+
+.img{
+  width: 100%
+
+}
+.restart-button{
+  margin-top: 1rem;
+  color: whitesmoke;
+  text-align: center;
+  padding-top: 0.5rem;
+  margin-left: 1.5rem;
+  background-color: #5C7AEA;
+ padding: 16px 16px 16px 16px;
+
+}
+.random-image{
+  width: 45%;
+}
+.play-button{
+  margin-top: 1.5rem;
+  color: whitesmoke;
+  text-align: center;
+  padding-top: 0.5rem;
+  background-color: #5C7AEA;
+}
