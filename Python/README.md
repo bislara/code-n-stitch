@@ -62,3 +62,4 @@
 | 61   | [Angry Bird Game](/Python/angry-birds-python)  | Created a Angry Birds Game using pygame | hemil26 |
 | 62   | [Text Summarizer](/Python/Text_Summarize)  | Input text in a GUI and get its summary as an output using NLP | kinshukdua |
 | 63   | [Folder Sorter](/Python/Folder%20Sorter) | Organize files in your directory | shadyskies
+| 64   | [HTML To Markup](/Python/HTML_TO_MARKUP)  | A python automation script to convert html to markup | [Neel Patel](github.com/itsneelpatel) |
