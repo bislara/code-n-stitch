@@ -14,3 +14,11 @@ or
 
 To Terminate the program do:
 `ctrl + c`
+
+### Example
+
+Input:
+![HTML](html.png)
+
+Output:
+![MARKUP](md.png)
