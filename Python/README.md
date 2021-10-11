@@ -64,3 +64,4 @@
 | 63   | [Folder Sorter](/Python/Folder%20Sorter) | Organize files in your directory | shadyskies |
 | 64   | [HTML To Markup](/Python/HTML_TO_MARKUP)  | A python automation script to convert html to markup | [Neel Patel](github.com/itsneelpatel) |
 | 65   | [CSV_to_JSON](/Python/CSV_to_JSON) | Converts csv file to json file | TechBoyy6 |
+| 66   | [CSV to XLSX Converter](/Python/csv-to-xlsx) | Converts CSV files to Excel (.xlsx) format. | [Dishant Vyas](https://github.com/dishantvyas15)
