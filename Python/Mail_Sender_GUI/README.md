@@ -11,7 +11,8 @@ PyMailer is an open source GUI application written in python using PySide2 and s
 3. Execute the script by running the following command.
 
 ```bash
-python main.py ```
+python main.py
+```
 
 4. Enter the rquired credentials in the given fields.
 
