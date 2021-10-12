@@ -65,4 +65,5 @@
 | 64   | [HTML To Markup](/Python/HTML_TO_MARKUP)  | A python automation script to convert html to markup | [Neel Patel](github.com/itsneelpatel) |
 | 65   | [CSV_to_JSON](/Python/CSV_to_JSON) | Converts csv file to json file | TechBoyy6 |
 | 66   | [CSV to XLSX Converter](/Python/csv-to-xlsx) | Converts CSV files to Excel (.xlsx) format. | [Dishant Vyas](https://github.com/dishantvyas15)
-| 67   | [PyMailer (Mail Sender GUI)](/Python/Mail_Sender_GUI) | GUI Based Email Sender Wtitten Using PySide2 & SMTPLib | [Rudransh Joshi](https://github.com/FireHead90544) |
+| 67   | [Movie Sub Downloader](/Python/Movie_Sub_Downloader) | Download subtitles of movies | shadyskies
+| 68   | [PyMailer (Mail Sender GUI)](/Python/Mail_Sender_GUI) | GUI Based Email Sender Wtitten Using PySide2 & SMTPLib | [Rudransh Joshi](https://github.com/FireHead90544) |
