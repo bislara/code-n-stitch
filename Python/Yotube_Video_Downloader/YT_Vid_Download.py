@@ -11,6 +11,7 @@ from tkinter import ttk
 from urllib.request import urlopen
 
 root = Tk()
+root.state('zoomed')
 
 vid = []
 vformats = []
