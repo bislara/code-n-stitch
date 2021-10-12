@@ -54,12 +54,10 @@ def ResolSelector():
     typ = sel_vid_typ.get()
     format = sel_format.get()
     prefix = typ + ":" + format + "@"
-    print("Prefix is:",prefix)
     for i in vid:
         temp = str(i)
         if(temp[:len(prefix)]==prefix and temp[len(prefix):] not in vres):
             vres.append(temp[len(prefix):])
-    print(vres)
     #Video type selector
     vid_res_label = Label(main_frame, text="Video Resol:", bg="#080808",foreground="white",font=('Helvetica', 16, 'bold'),anchor=W,justify=LEFT)
     vid_res_label.place(relx=0.2,rely=0.66,relwidth=0.5,relheight=0.06)
@@ -87,7 +85,6 @@ def FormatSelector():
                     vformats.append(tstr)
                 else:
                     tstr+=j
-    print(vformats)
     #Video type selector
     vid_format_label = Label(main_frame, text="Video Format:", bg="#080808",foreground="white",font=('Helvetica', 16, 'bold'),anchor=W,justify=LEFT)
     vid_format_label.place(relx=0.2,rely=0.58,relwidth=0.5,relheight=0.06)
@@ -140,7 +137,6 @@ def ShowPreview():
     confirm_btn.place(relx=0.52,rely=0.5,relwidth=0.1,relheight=0.06)
 
     sel_format.set("None")
-    print(vformats)
     
 
 if __name__  == "__main__":
