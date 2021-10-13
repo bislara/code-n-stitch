@@ -13,3 +13,8 @@ Run the python program
 4) Click download
 
 CONGRATULATIONS YOUR VIDEO HAS BEEN DOWNLOADED!!!
+
+## Screenshots for help
+![alt text](https://user-images.githubusercontent.com/69297997/136968880-d3b4ad42-9624-44ba-8013-c8ba4a3dfab6.png)
+![alt text](https://user-images.githubusercontent.com/69297997/136969047-3f04f50a-46fe-4cfa-96c8-29b19bf884b3.png)
+![alt text](https://user-images.githubusercontent.com/69297997/136969259-1f92a229-f174-47f4-a3e8-19179884bb43.png)
