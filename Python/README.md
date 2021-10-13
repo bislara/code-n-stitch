@@ -63,3 +63,4 @@
 | 62   | [Text Summarizer](/Python/Text_Summarize)  | Input text in a GUI and get its summary as an output using NLP | kinshukdua |
 | 63   | [Folder Sorter](/Python/Folder%20Sorter) | Organize files in your directory | shadyskies
 | 64   | [HTML To Markup](/Python/HTML_TO_MARKUP)  | A python automation script to convert html to markup | [Neel Patel](github.com/itsneelpatel) |
+| 65   | [scrap Instagram profile](/Python/InstaScraper)  | A python script that grabs all details of username you enter | [sai sumanth kumar](github.com/saisumanthkumar) |
