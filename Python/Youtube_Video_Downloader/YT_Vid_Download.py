@@ -2,13 +2,11 @@ import os
 import pafy
 import PIL.Image
 import tkinter as tk
-from logging import lastResort
 from pafy import *
 from PIL import ImageTk
 from tkinter import *
 from tkinter import filedialog
 from tkinter import ttk
-from urllib.request import urlopen
 
 root = Tk()
 root.state('zoomed')
