@@ -1,6 +1,6 @@
 # CODE and STITCH 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-55-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-59-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
@@ -132,6 +132,10 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/itsneelpatel"><img src="https://avatars.githubusercontent.com/u/67146120?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Neel Patel</b></sub></a><br /><a href="https://github.com/bislara/code-n-stitch/commits?author=itsneelpatel" title="Code">💻</a> <a href="https://github.com/bislara/code-n-stitch/commits?author=itsneelpatel" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/kavyakunder"><img src="https://avatars.githubusercontent.com/u/81958043?v=4?s=100" width="100px;" alt=""/><br /><sub><b>kavyakunder</b></sub></a><br /><a href="https://github.com/bislara/code-n-stitch/commits?author=kavyakunder" title="Code">💻</a> <a href="https://github.com/bislara/code-n-stitch/commits?author=kavyakunder" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/SarveshLimaye"><img src="https://avatars.githubusercontent.com/u/74766567?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sarvesh Limaye</b></sub></a><br /><a href="https://github.com/bislara/code-n-stitch/commits?author=SarveshLimaye" title="Code">💻</a> <a href="https://github.com/bislara/code-n-stitch/commits?author=SarveshLimaye" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://moizrajkotwala.netlify.com"><img src="https://avatars.githubusercontent.com/u/73435031?v=4?s=100" width="100px;" alt=""/><br /><sub><b>MoiZ</b></sub></a><br /><a href="https://github.com/bislara/code-n-stitch/commits?author=TechBoyy6" title="Code">💻</a> <a href="https://github.com/bislara/code-n-stitch/commits?author=TechBoyy6" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/dishantvyas15"><img src="https://avatars.githubusercontent.com/u/54072449?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Dishant Vyas</b></sub></a><br /><a href="https://github.com/bislara/code-n-stitch/commits?author=dishantvyas15" title="Code">💻</a> <a href="https://github.com/bislara/code-n-stitch/commits?author=dishantvyas15" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://www.rudranshis.me/"><img src="https://avatars.githubusercontent.com/u/55452780?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rudransh Joshi</b></sub></a><br /><a href="https://github.com/bislara/code-n-stitch/commits?author=FireHead90544" title="Code">💻</a> <a href="https://github.com/bislara/code-n-stitch/commits?author=FireHead90544" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/bridyash13"><img src="https://avatars.githubusercontent.com/u/69297997?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yash Brid</b></sub></a><br /><a href="https://github.com/bislara/code-n-stitch/commits?author=bridyash13" title="Code">💻</a> <a href="https://github.com/bislara/code-n-stitch/commits?author=bridyash13" title="Documentation">📖</a></td>
   </tr>
 </table>
 

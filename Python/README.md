@@ -61,6 +61,11 @@
 | 60   | [Port Scanner with Multithreading](/Python/Port_Scanner_with_Multithreading)  | Python script that scans a host IP for open ports significantly fast using multithreading | namanshah01 |
 | 61   | [Angry Bird Game](/Python/angry-birds-python)  | Created a Angry Birds Game using pygame | hemil26 |
 | 62   | [Text Summarizer](/Python/Text_Summarize)  | Input text in a GUI and get its summary as an output using NLP | kinshukdua |
-| 63   | [Folder Sorter](/Python/Folder%20Sorter) | Organize files in your directory | shadyskies
+| 63   | [Folder Sorter](/Python/Folder%20Sorter) | Organize files in your directory | shadyskies |
 | 64   | [HTML To Markup](/Python/HTML_TO_MARKUP)  | A python automation script to convert html to markup | [Neel Patel](github.com/itsneelpatel) |
-| 65   | [scrap Instagram profile](/Python/InstaScraper)  | A python script that grabs all details of username you enter | [sai sumanth kumar](github.com/saisumanthkumar) |
+| 65   | [CSV_to_JSON](/Python/CSV_to_JSON) | Converts csv file to json file | TechBoyy6 |
+| 66   | [CSV to XLSX Converter](/Python/csv-to-xlsx) | Converts CSV files to Excel (.xlsx) format. | [Dishant Vyas](https://github.com/dishantvyas15)
+| 67   | [Movie Sub Downloader](/Python/Movie_Sub_Downloader) | Download subtitles of movies | shadyskies
+| 68   | [PyMailer (Mail Sender GUI)](/Python/Mail_Sender_GUI) | GUI Based Email Sender Wtitten Using PySide2 & SMTPLib | [Rudransh Joshi](https://github.com/FireHead90544) | 69   | [Imgur Album Downloader](/Python/Imgur_Album_Downloader) | Download imgur albums | shadyskies
+| 69   | [Yotube Video Downloader](/Python/Youtube_Video_Downloader) | Download videos from YouTube of desired format and resolution | [Yash Brid](https://github.com/bridyash13)
+| 70   | [scrap Instagram profile](/Python/InstaScraper)  | A python script that grabs all details of username you enter | [sai sumanth kumar](github.com/saisumanthkumar) |
