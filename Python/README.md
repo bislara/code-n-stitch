@@ -66,4 +66,5 @@
 | 65   | [CSV_to_JSON](/Python/CSV_to_JSON) | Converts csv file to json file | TechBoyy6 |
 | 66   | [CSV to XLSX Converter](/Python/csv-to-xlsx) | Converts CSV files to Excel (.xlsx) format. | [Dishant Vyas](https://github.com/dishantvyas15)
 | 67   | [Movie Sub Downloader](/Python/Movie_Sub_Downloader) | Download subtitles of movies | shadyskies
-| 68   | [Yotube Video Downloader](/Python/Youtube_Video_Downloader) | Download videos from YouTube of desired format and resolution | [Yash Brid](https://github.com/bridyash13)
+| 68   | [PyMailer (Mail Sender GUI)](/Python/Mail_Sender_GUI) | GUI Based Email Sender Wtitten Using PySide2 & SMTPLib | [Rudransh Joshi](https://github.com/FireHead90544) | 69   | [Imgur Album Downloader](/Python/Imgur_Album_Downloader) | Download imgur albums | shadyskies
+| 69   | [Yotube Video Downloader](/Python/Youtube_Video_Downloader) | Download videos from YouTube of desired format and resolution | [Yash Brid](https://github.com/bridyash13)
