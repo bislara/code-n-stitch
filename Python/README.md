@@ -68,3 +68,4 @@
 | 67   | [Movie Sub Downloader](/Python/Movie_Sub_Downloader) | Download subtitles of movies | shadyskies
 | 68   | [PyMailer (Mail Sender GUI)](/Python/Mail_Sender_GUI) | GUI Based Email Sender Wtitten Using PySide2 & SMTPLib | [Rudransh Joshi](https://github.com/FireHead90544) | 69   | [Imgur Album Downloader](/Python/Imgur_Album_Downloader) | Download imgur albums | shadyskies
 | 69   | [Yotube Video Downloader](/Python/Youtube_Video_Downloader) | Download videos from YouTube of desired format and resolution | [Yash Brid](https://github.com/bridyash13)
+| 70   | [scrap Instagram profile](/Python/InstaScraper)  | A python script that grabs all details of username you enter | [sai sumanth kumar](github.com/saisumanthkumar) |
