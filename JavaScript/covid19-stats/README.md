@@ -8,6 +8,7 @@ You can run this code using node.js
 
 * first, clone this repository
 * type ``` cd code-n-stitch/javascript/covid19-stats ```
+* type ``` npm install ```
 * type ``` node interface.js ```
 * then you need to fill the country with country name or country code
 
