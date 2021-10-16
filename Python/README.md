@@ -69,4 +69,5 @@
 | 68   | [PyMailer (Mail Sender GUI)](/Python/Mail_Sender_GUI) | GUI Based Email Sender Wtitten Using PySide2 & SMTPLib | [Rudransh Joshi](https://github.com/FireHead90544) | 69   | [Imgur Album Downloader](/Python/Imgur_Album_Downloader) | Download imgur albums | shadyskies
 | 69   | [Yotube Video Downloader](/Python/Youtube_Video_Downloader) | Download videos from YouTube of desired format and resolution | [Yash Brid](https://github.com/bridyash13)
 | 70   | [scrap Instagram profile](/Python/InstaScraper)  | A python script that grabs all details of username you enter | [sai sumanth kumar](github.com/saisumanthkumar) |
-| 71   | [Virus using Turtle lib](/Python/virus-using-turtle) | Generates an animation resulting in a visual of biological virus. | [Dishant Vyas](https://github.com/dishantvyas15)
+| 71   | [Turtle Race Game](/Ptython/turtle_race_game)| A classic race game made using turtle library of python.| [Kashika Jain](https://github.com/Kashika18) |
+| 72   | [Virus using Turtle lib](/Python/virus-using-turtle) | Generates an animation resulting in a visual of biological virus. | [Dishant Vyas](https://github.com/dishantvyas15) |
