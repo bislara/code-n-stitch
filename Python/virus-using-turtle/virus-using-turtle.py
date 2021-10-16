@@ -1,6 +1,10 @@
 # Importing the turtle library
 import turtle as trt
 
+# Setting output window dimensions
+outputArea = trt.Screen()
+outputArea.setup(width=1200, height=800)
+
 # Setting animation parameters
 trt.speed(20)
 trt.color('yellow')
