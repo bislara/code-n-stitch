@@ -19,6 +19,7 @@ class CovidStats {
     }
 }
 
+
 const getCovidStats = async(country = 'Global') => {
     const response = await axios.get('https://api.covid19api.com/summary')
 
