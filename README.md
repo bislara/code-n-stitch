@@ -1,6 +1,6 @@
 # CODE and STITCH 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-61-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-62-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
@@ -140,6 +140,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/Kashika18"><img src="https://avatars.githubusercontent.com/u/77044673?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kashika Jain</b></sub></a><br /><a href="https://github.com/bislara/code-n-stitch/commits?author=Kashika18" title="Code">💻</a> <a href="https://github.com/bislara/code-n-stitch/commits?author=Kashika18" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/kinkusuma"><img src="https://avatars.githubusercontent.com/u/66422665?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kinie K Kusuma</b></sub></a><br /><a href="https://github.com/bislara/code-n-stitch/commits?author=kinkusuma" title="Code">💻</a> <a href="https://github.com/bislara/code-n-stitch/commits?author=kinkusuma" title="Documentation">📖</a></td>
   </tr>
 </table>
 
