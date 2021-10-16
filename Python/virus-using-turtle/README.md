@@ -6,7 +6,7 @@ This pyscript generates a visual animation which ends up drawing an entity simil
 The only requirement for this file to work is the `turtle` library.
 
 It can be installed using the command:
-`pip install turtle`
+`pip install turtle`<br><br>
 
-Execution output:
-
+Execution output:<br>
+<img src="virus-sim.png" width=40%>
