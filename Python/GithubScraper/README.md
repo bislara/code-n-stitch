@@ -4,7 +4,7 @@
 ## Description :
 On sending the username as a parameter in terminal this program scrap the details of that github user.And If needed deatils can be saved to a file.
 <br>
-<img src="/assets/1.png" alt="Image of scraped data" />
+<img src="./assets/1.png" alt="Image of scraped data" />
 
 <pre>
 #### Folder Structure :
@@ -52,13 +52,13 @@ pip install -r requirements.txt
 python .\scraper.py <USERNAME>
 ```
 2. <p style="font-family:sansserif">It shows all details of that user in terminal.</p>
-<img src="/assets/5.png" />
+<img src="./assets/5.png" />
 
 3. <p> Also asks, whether are you wishing to save the file</p>
-<img src="/assets/2.png" />
+<img src="./assets/2.png" />
 
 4. <p>Folder structure</p>
-<img src="/assets/3.png" />
+<img src="./assets/3.png" />
 
 5. The saved text file 
-<img src="/assets/4.png" />
+<img src="./assets/4.png" />
