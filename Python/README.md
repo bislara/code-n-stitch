@@ -71,3 +71,4 @@
 | 70   | [scrap Instagram profile](/Python/InstaScraper)  | A python script that grabs all details of username you enter | [sai sumanth kumar](github.com/saisumanthkumar) |
 | 71   | [Turtle Race Game](/Ptython/turtle_race_game)| A classic race game made using turtle library of python.| [Kashika Jain](https://github.com/Kashika18) |
 | 72   | [Virus using Turtle lib](/Python/virus-using-turtle) | Generates an animation resulting in a visual of biological virus. | [Dishant Vyas](https://github.com/dishantvyas15) |
+| 73   | [scrap Github profile](/Python/GithubScraper)  | A python script that grabs all details of github user | [sai sumanth kumar](github.com/saisumanthkumar) |
