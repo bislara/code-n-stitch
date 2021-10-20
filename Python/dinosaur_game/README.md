@@ -1,6 +1,10 @@
 # Dinosaur Game in Pygame
 A simple dinosaur game that is similar to chrome no internet dinosaur game
 
+![Alt text](Images/dinosaur-game-menu.png?raw=true "dinosaur game menu")
+
+![Alt text](Images/dinosaur-game-play.png?raw=true "dinosaur game play")
+
 # Requirements
 ```bash
 pip install -r requirements.txt
