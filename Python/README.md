@@ -74,3 +74,4 @@
 | 73   | [scrap Github profile](/Python/GithubScraper)  | A python script that grabs all details of github user | [sai sumanth kumar](github.com/saisumanthkumar) |
 | 74   | [Dinosaur Game](/Python/dinosaur_game) | The famous Chrome dinosaur game when there is no Internet | [Ian Yy](https://github.com/Ian-Yy) |
 | 75   | [Speech to Text Converter](/Python/speech-to-text) | Converts speech from a WAVE file to text. | [Dishant Vyas](https://github.com/dishantvyas15) |
+| 76   | [2048 Game](/Python/2048_Stack) | The 2048 game using a stack | [Yash Brid](https://github.com/bridyash13)
