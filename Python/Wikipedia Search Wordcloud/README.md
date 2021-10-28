@@ -9,4 +9,4 @@ Run like any other python file. Upon executing, the wordcloud image will be save
 ![script execution](script_execution.jpg)
 
 ### Author
-[Naman Shah](github.com/namanshah01)
+[Naman Shah](https://github.com/namanshah01)
