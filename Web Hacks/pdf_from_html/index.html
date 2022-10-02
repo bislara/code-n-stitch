@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Add here the styles and script we described up -->
+    <title>This will be the title of the pdf file</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(65, 65, 65);
+            -webkit-print-color-adjust: exact !important;
+            color-adjust: exact !important;
+            print-color-adjust: exact !important;
+        }
+
+        @media print {
+        @page {
+            margin-left: 0.8in;
+            margin-right: 0.8in;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        }
+
+        #container {
+            width: 800px;
+            margin: 0 auto;
+        }
+
+        .btn {
+            border: none;
+            background-color: inherit;
+            padding: 14px 28px;
+            font-size: 16px;
+            cursor: pointer;
+            display: inline-block;
+            }
+
+            /* On mouse-over */
+            .btn:hover {background: #eee;}
+
+            .info {color: dodgerblue;}
+
+            .info:hover {
+                background: #2196F3;
+                color: white;
+            }
+
+    </style>
+</head>
+
+<body id="container">
+
+
+
+    <h1>Super cool custom pdf</h1>
+
+    <p>Click on the below button to generate the PDF from the HTML page. This pdf is generated from the client side without any external libraries!</p>
+    <button class="btn info">    <a href="#" id="print">GENERATE PDF!</a> </button>
+
+</body>
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        let printLink = document.getElementById("print");
+        let container = document.getElementById("container");
+
+        printLink.addEventListener("click", event => {
+            event.preventDefault();
+            printLink.style.display = "none";
+            window.print();
+        }, false);
+
+        container.addEventListener("click", event => {
+            printLink.style.display = "flex";
+        }, false);
+
+    }, false);
+</script>
+</html>
