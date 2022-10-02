@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://designshack.net/wp-content/uploads/hover-effects.png">
+    <title>Hoverboard</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        body{
+            background-color: #111;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            overflow: hidden;
+            margin: 0;
+        }
+
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            max-width: 400px;
+        }
+
+        .square{
+            background-color: #1d1d1d;
+            box-shadow: 0 0 2px #000;
+            height: 16px;
+            width: 16px;
+            margin: 2px;
+            transition: 2s ease;
+        }
+
+        .square:hover{
+            transition-duration: 0s;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container" id = "container">
+        <!-- Squares are inserted by JS -->
+    </div>
+    <script>
+        const container = document.getElementById('container');
+        const colors = ['#ff0028', '#f7ef04', '#3904f7', '#1ff704', '#04f7e5'];
+        const SQUARES = 500;
+
+        // Generates squares
+        for(let i = 0; i < SQUARES; i++) {
+            const square = document.createElement('div');
+            square.classList.add('square');
+
+            square.addEventListener('mouseover', () => setColor(square));
+
+            square.addEventListener('mouseout', () => removeColor(square));
+
+            // Append squares into the container
+            container.appendChild(square);
+        }
+
+        function setColor(element) {
+            const color = getRandomColor()
+            element.style.background = color
+            element.style.boxShadow = `0 0 2px ${color}, 0 0 10px ${color}`
+        }
+
+        function removeColor(element) {
+            element.style.background = '#1d1d1d';
+            element.style.boxShadow = '0 0 2px #000';
+        }
+
+        function getRandomColor() {
+            return colors[Math.floor(Math.random() * colors.length)]
+        }
+    </script>p
+</body>
+</html>
