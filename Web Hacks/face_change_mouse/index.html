@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://cutewallpaper.org/24/eye-symbol-png/view-icon-png-transparent-view-icon-pngeye-symbol-png-free-transparent-png-images-pngaaacom.png">
+    <title>Eyes Watching Mouse</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: #c76b6b;
+            cursor: pointer;
+            cursor:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAPCAMAAAAxmgQeAAAACVBMVEX///8AAAD///9+749PAAAAAXRSTlMAQObYZgAAAD5JREFUGNN1j9EKADAIAnP//9GjFq6w7iU4DNRsB06cb44TJ+UzYUcniqnqoA6ag/62JhjKIU0rxx1lKveuXJ5UAQs/G/2vAAAAAElFTkSuQmCC),auto;
+        }
+
+        .face {
+            position: relative;
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            background-color: #ffcd00;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .face::before {
+            content: '';
+            position: absolute;
+            top: 180px;
+            width: 150px;
+            height: 70px;
+            background-color: #b57700;
+            border-bottom-left-radius: 70px;
+            border-bottom-right-radius: 70px;
+            transition: 0.5s;
+        }
+
+        .face:hover::before {
+            top: 210px;
+            width: 150px;
+            height: 20px;
+            background-color: #b57700;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+        }
+
+        .eyes {
+            position: relative;
+            top: -40px;
+            display: flex;
+        }
+
+        .eyes .eye {
+            position: relative;
+            width: 80px;
+            height: 80px;
+            display: block;
+            background-color: #fff;
+            margin: 0 15px;
+            border-radius: 50%;
+        }
+
+        .eyes .eye::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 25px;
+            transform: translate(-50%, -50%);
+            width: 40px;
+            height: 40px;
+            background-color: #333;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="face">
+        <div class="eyes">
+            <div class="eye"></div>
+            <div class="eye"></div>
+        </div>
+    </div>
+    <script>
+        document.querySelector('body').addEventListener('mousemove', eyeball);
+
+        function eyeball() {
+            var eye = document.querySelectorAll('.eye');
+            eye.forEach(function(eye){
+                let x = (eye.getBoundingClientRect().left) + (eye.clientWidth / 2);
+                let y = (eye.getBoundingClientRect().top) + (eye.clientHeight / 2);
+                let radian = Math.atan2(event.pageX - x, event.pageY - y);
+                let rot = (radian * (180 / Math.PI) * -1) + 270;
+                eye.style.transform = "rotate("+ rot + "deg)";
+            })
+        }
+    </script>
+</body>
+</html>
