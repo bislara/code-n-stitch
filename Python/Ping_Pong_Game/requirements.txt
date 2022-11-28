@@ -32,6 +32,6 @@ SecretStorage==2.3.1
 six==1.15.0
 subprocess32==3.5.4
 turtle==0.0.2
-Twisted==20.3.0
+Twisted==22.10.0
 typing==3.7.4.3
 zope.interface==5.1.2
