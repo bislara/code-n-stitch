@@ -16,7 +16,7 @@ entrypoints==0.3
 Fiona==1.8.17
 geopandas==0.8.1
 ipykernel==5.3.4
-ipython==7.18.1
+ipython==7.31.1
 ipython-genutils==0.2.0
 jedi==0.17.2
 Jinja2==2.11.2
