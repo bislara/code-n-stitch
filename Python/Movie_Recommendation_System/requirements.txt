@@ -7,7 +7,7 @@ inquirer==2.7.0
 lxml==4.9.1
 python-editor==1.0.4
 readchar==2.0.1
-requests==2.24.0
+requests==2.31.0
 six==1.15.0
 soupsieve==2.0.1
 urllib3==1.26.5
