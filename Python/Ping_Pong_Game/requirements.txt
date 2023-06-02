@@ -5,7 +5,7 @@ backports.functools-lru-cache==1.6.1
 bar==0.2.1
 configparser==3.5.0b2
 constantly==15.1.0
-cryptography==39.0.1
+cryptography==41.0.0
 cycler==0.10.0
 entrypoints==0.2.3.post3
 enum34==1.1.6
