@@ -65,7 +65,8 @@ const pencil=document.createElement('button');
 pencil.id='pencil';
 pencil.textContent='Pencil';
 //Button is created
-toolbar.appendChild(pencil);
+const firstButton = toolbar.querySelector('button');
+toolbar.insertBefore(pencil, firstButton);
 
 document.getElementById('pencil').addEventListener('click', () => {
   isEraser = false;
