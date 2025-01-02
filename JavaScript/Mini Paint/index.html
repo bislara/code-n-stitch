@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paint Application</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="toolbar">
+    <input type="color" id="color-picker" title="Choose Color">
+    <input type="range" id="brush-size" min="1" max="50" value="5" title="Brush Size">
+    <button id="eraser">Eraser</button>
+    <button id="clear-board">Clear Board</button>
+    <button id="download-png">Download PNG</button>
+    <button id="download-jpg">Download JPG</button>
+  </div>
+  <canvas id="paint-canvas"></canvas>
+  <script src="script.js"></script>
+</body>
+</html>
