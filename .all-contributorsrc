@@ -636,6 +636,16 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "SitaGanesh",
+      "name": "Sita Ganesh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/134408638?v=4",
+      "profile": "https://sitaganesh.netlify.app/",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 10,
@@ -643,5 +653,7 @@
   "projectOwner": "bislara",
   "repoType": "github",
   "repoHost": "https://github.com",
-  "skipCi": true
+  "skipCi": true,
+  "commitType": "docs",
+  "commitConvention": "angular"
 }
