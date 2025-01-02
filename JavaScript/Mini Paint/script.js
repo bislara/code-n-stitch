@@ -44,6 +44,7 @@ document.getElementById('clear-board').addEventListener('click', () => {
 document.getElementById('color-picker').addEventListener('input', (e) => {
   currentColor = e.target.value;
   isEraser = false;
+  canvas.style.cursor = 'crosshair';
 });
 
 // Change brush size
@@ -54,7 +55,22 @@ document.getElementById('brush-size').addEventListener('input', (e) => {
 // Toggle eraser
 document.getElementById('eraser').addEventListener('click', () => {
   isEraser = true;
+  canvas.style.cursor = 'not-allowed';
 });
+
+//Added button to switch pencil function
+//dynamic pencil button
+const toolbar=document.querySelector('.toolbar');
+const pencil=document.createElement('button');
+pencil.id='pencil';
+pencil.textContent='Pencil';
+//Button is created
+toolbar.appendChild(pencil);
+
+document.getElementById('pencil').addEventListener('click', () => {
+  isEraser = false;
+  canvas.style.cursor = 'crosshair';
+})
 
 // Download as PNG
 document.getElementById('download-png').addEventListener('click', () => {
