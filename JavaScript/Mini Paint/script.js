@@ -57,6 +57,7 @@ document.getElementById('brush-size').addEventListener('input', (e) => {
 // Toggle eraser
 document.getElementById('eraser').addEventListener('click', () => {
   isEraser = true;
+  isFillMode=false;//reset fill mode
   canvas.style.cursor = 'not-allowed';
 });
 
@@ -72,6 +73,7 @@ toolbar.insertBefore(pencil, firstButton);
 
 document.getElementById('pencil').addEventListener('click', () => {
   isEraser = false;
+  isFillMode=false;//reset fill mode
   canvas.style.cursor = 'crosshair';
 })
 
@@ -79,6 +81,7 @@ document.getElementById('pencil').addEventListener('click', () => {
 const fillButton = document.getElementById('fill-color');
 fillButton.addEventListener('click',()=>{
   isFillMode=true;
+  isEraser=false;//reset eraser
   canvas.style.cursor='pointer';
 })
 
@@ -105,7 +108,6 @@ function fillColor(e) {
     ctx.putImageData(imageData, 0, 0);
   }
 
-  isFillMode = false; // Reset fill mode after filling
 }
 
 // Helper functions for the Flood Fill
